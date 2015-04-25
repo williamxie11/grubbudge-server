@@ -17,6 +17,8 @@
     "grunt-copy": "latest",
     "grunt-express-server": "latest",
     "matchdep": "latest",
-    "yelp": "latest"
+    "yelp": "latest",
+    "sequence": "latest",
+    "node-promise": "latest"
   }
 }
