@@ -7,6 +7,9 @@ var mongoose = require('mongoose');
 
 // Mongoose models (local representations of MongoDB collections)
 var Llama = require('./models/llama');
+var User = require('./models/user');
+var Restaurant = require('./models/restaurant');
+var MealPlan = require('./models/mealplan');
 
 // Connect to GrubBudge database hosted by MongoLab
 mongoose.connect('mongodb://testuser:cc0717@ds055709.mongolab.com:55709/grubbudge', function (err) {
@@ -48,7 +51,7 @@ app.use(bodyParser.json());
 app.use('/api', router);
 
 var requestCount = 0; // track # of requests
-// Middlware to use for all our requests
+// Middleware to use for all our requests
 // Used here to keep track of # of requests just for fun.
 router.use(function (req, res, next) {
 	requestCount++;
