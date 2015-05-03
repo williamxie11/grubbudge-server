@@ -662,7 +662,7 @@ restaurantIdRoute.get(function (req, res) {
 // PUT - modify existing restaurant
 restaurantIdRoute.put(function (req, res) {
 
-	// find meal plan in database
+	// find restaurant in database
 	Restaurant.findById(req.params.id, function (err, restaurant) {
 		// Handle error
 		if (err) {
