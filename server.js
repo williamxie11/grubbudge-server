@@ -279,7 +279,7 @@ userIdRoute.delete(function (req, res) {
 // mealplans route ----------------------------
 var mealPlansRoute = router.route('/mealplans');
 
-// GET - List of mealplans
+// GET - List of meal plans
 mealPlansRoute.get(function (req, res) {
 	
 	var query = MealPlan.find(); // Mongoose query
@@ -406,7 +406,7 @@ mealPlanIdRoute.get(function (req, res) {
 			return;
 		}
 		// ID exists, but not assigned to any meal plan
-		if (!user) {
+		if (!mealplan) {
 			res.status(404).json({message: 'Meal plan not found.', data: []});
 			return;
 		}
@@ -416,7 +416,7 @@ mealPlanIdRoute.get(function (req, res) {
 	});
 });
 
-// PUT - modify existing user
+// PUT - modify existing meal plan
 mealPlanIdRoute.put(function (req, res) {
 
 	// find meal plan in database
@@ -466,7 +466,7 @@ mealPlanIdRoute.put(function (req, res) {
 // DELETE - remove an existing meal plan from database
 mealPlanIdRoute.delete(function (req, res) {
 	// Find meal plan in database
-	MealPlan.findById(req.params.id, function (err, user) {
+	MealPlan.findById(req.params.id, function (err, mealplan) {
 		// Handle error
 		if (err) {
 			res.status(404).json({message: 'Meal plan not found.', data: []});
@@ -474,7 +474,7 @@ mealPlanIdRoute.delete(function (req, res) {
 		}
 
 		// ID exists, but not assigned to any meal plan
-		if(!user) {
+		if(!mealplan) {
 			res.status(404).json({message: 'Meal plan not found.', data: []});
 			return;
 		}
@@ -492,6 +492,261 @@ mealPlanIdRoute.delete(function (req, res) {
 		});
 	});
 });
+
+// restaurants route --------------------------------------
+var restaurantsRoute = router.route('/restaurants');
+
+// GET - List of restaurants
+restaurantsRoute.get(function (req, res) {
+	
+	var query = Restaurant.find(); // Mongoose query
+
+	// Build query based on request
+    if(req.query.where) {
+        var where = JSON.parse(req.query.where);
+        query.where(where);
+    }
+    if(req.query.sort) {
+        var sort = JSON.parse(req.query.sort);
+        query.sort(sort);
+    }
+    if(req.query.select) {
+        var select = JSON.parse(req.query.select);
+        query.select(select);
+    }
+    if(req.query.skip) {
+        var skip = parseInt(req.query.skip, 10);
+        query.skip(skip);
+    }
+    if(req.query.limit) {
+        var limit = parseInt(req.query.limit, 10);
+        query.limit(limit);
+    }
+    var count = (req.query.count === 'true');
+
+    // If count is requested
+    if(count)
+    	query.count(function (err, count) {
+    		// Error
+    		if (err) {
+    			res.status(500).json({message: 'Internal server error!', data: []});
+    			return;
+    		}
+    		// Success
+    		res.status(200).json({message: 'OK', data: count});
+    	});
+    // count not requested
+    else
+    	query.exec(function (err, restaurants) {
+    		// Error
+    		if (err) {
+    			res.status(500).json({message: 'Internal server error!', data: []});
+    			return;
+    		}
+    		// Success
+    		res.status(200).json({message: 'OK', data: restaurants});
+    	});
+});
+
+// POST - Create a restaurant listing
+restaurantsRoute.post(function (req, res) {
+	
+	// Check request body for missing required attributes
+	if(!req.body.name) {
+		res.status(400).json({message: 'Missing restaurant name.', data: []});
+		return;
+	}
+	if(!req.body.imageURL) {
+		res.status(400).json({message: 'Missing restaurant image URL.', data: []});
+		return;
+	}
+	if(!req.body.lat) {
+		res.status(400).json({message: 'Missing restaurant latitude.', data: []});
+		return;
+	}
+	if(!req.body.lon) {
+		res.status(400).json({message: 'Missing restaurant longitude.', data: []});
+		return;
+	}
+	if(!req.body.address) {
+		res.status(400).json({message: 'Missing restaurant address.', data: []});
+		return;
+	}
+	if(!req.body.rating) {
+		res.status(400).json({message: 'Missing restaurant rating.', data: []});
+		return;
+	}
+	if(!req.body.ratingURL) {
+		res.status(400).json({message: 'Missing restaurant rating URL.', data: []});
+		return;
+	}
+	if(!req.body.yelpURL) {
+		res.status(400).json({message: 'Missing restaurant Yelp URL.', data: []});
+		return;
+	}
+	if(!req.body.categories) {
+		res.status(400).json({message: 'Missing restaurant categories.', data: []});
+		return;
+	}
+	if(!req.body.price) {
+		res.status(400).json({message: 'Missing restaurant price.', data: []});
+		return;
+	}
+	if(!req.body.open) {
+		res.status(400).json({message: 'Missing restaurant open times.', data: []});
+		return;
+	}
+	if(!req.body.close) {
+		res.status(400).json({message: 'Missing restaurant close times.', data: []});
+		return;
+	}
+
+	// Construct restaurant object
+	var newRestaurant = new Restaurant();
+	newRestaurant.name = req.body.name;
+	newRestaurant.imageURL = req.body.imageURL;
+	newRestaurant.lat = req.body.lat;
+	newRestaurant.lon = req.body.lon;
+	newRestaurant.address = req.body.address;
+	newRestaurant.rating = req.body.rating;
+	newRestaurant.ratingURL = req.body.ratingURL;
+	newRestaurant.yelpURL = req.body.yelpURL;
+	newRestaurant.categories = req.body.categories;
+	newRestaurant.price = req.body.price;
+	newRestaurant.open = req.body.open;
+	newRestaurant.close = req.body.close;
+
+	// Save restaurant object to database
+	newRestaurant.save(function (err, savedrestaurant) {
+		// Handle error
+		if (err) {
+			res.status(500).json({message: 'Internal server error.', data: []});
+			return;
+		}
+		// Success
+		res.status(201).json({message: 'Restaurant created.', data: savedrestaurant});
+	});
+});
+
+// OPTIONS 
+restaurantsRoute.options(function (req, res) {
+	res.writeHead(200);
+	res.end();
+});
+
+
+// restaurants/:id route ------------------------------------
+var restaurantIdRoute = router.route('/restaurants/:id');
+
+// GET - details of a specific restaurant
+restaurantIdRoute.get(function (req, res) {
+
+	// find restaurant in the database
+	Restaurant.findById(req.params.id, function (err, restaurant) {
+		// Handle error
+		if (err) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+		// ID exists, but not assigned to any restaurant
+		if (!restaurant) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+
+		// Success
+		res.status(200).json({message: 'OK', data: restaurant});
+	});
+});
+
+// PUT - modify existing restaurant
+restaurantIdRoute.put(function (req, res) {
+
+	// find meal plan in database
+	Restaurant.findById(req.params.id, function (err, restaurant) {
+		// Handle error
+		if (err) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+
+		// ID exists, but not assigned to any restaurant
+		if(!restaurant) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+
+		// Success, update restaurant object
+		if(req.body.name)
+			restaurant.name = req.body.name;
+		if(req.body.imageURL)
+			restaurant.imageURL = req.body.imageURL;
+		if(req.body.lat)
+			restaurant.lat = req.body.lat;
+		if(req.body.lon)
+			restaurant.lon = req.body.lon;
+		if(req.body.address)
+			restaurant.address = req.body.address;
+		if(req.body.rating) 
+			restaurant.rating = req.body.rating;
+		if(req.body.ratingURL)
+			restaurant.ratingURL = req.body.ratingURL;
+		if(req.body.yelpURL)
+			restaurant.yelpURL = req.body.yelpURL;
+		if(req.body.categories)
+			restaurant.categories = req.body.categories;
+		if(req.body.price)
+			restaurant.price = req.body.price;
+		if(req.body.open)
+			restaurant.open = req.body.open;
+		if(req.body.close)
+			restaurant.close = req.body.close;
+
+		// Save updated restaurant to database
+		restaurant.save(function (err, savedrestaurant) {
+			// Handle error
+			if (err) {
+				res.status(500).json({message: 'Internal server error', data: []});
+				return;
+			}
+
+			// Success
+			res.status(202).json({message: 'Restaurant updated.', data: savedrestaurant});
+		});
+	});
+});
+
+// DELETE - remove an existing restaurant from database
+restaurantIdRoute.delete(function (req, res) {
+	// Find restaurant in database
+	Restaurant.findById(req.params.id, function (err, restaurant) {
+		// Handle error
+		if (err) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+
+		// ID exists, but not assigned to any restaurant
+		if(!restaurant) {
+			res.status(404).json({message: 'Restaurant not found.', data: []});
+			return;
+		}
+
+		// Success, restaurant found, now delete it.
+		Restaurant.remove({_id: req.params.id}, function (err) {
+			// Handle error
+			if(err) {
+				res.status(500).json({message: 'Internal server error.', data: []});
+				return;
+			}
+
+			// Success
+			res.status(200).json({message: 'Restaurant removed.', data: []});
+		});
+	});
+});
+
+
 
 // Start the server
 app.listen(port);
