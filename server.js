@@ -6,7 +6,6 @@ var express = require('express');
 var mongoose = require('mongoose');
 
 // Mongoose models (local representations of MongoDB collections)
-var Llama = require('./models/llama');
 var User = require('./models/user');
 var Restaurant = require('./models/restaurant');
 var MealPlan = require('./models/mealplan');
@@ -45,7 +44,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-// REGISTER ROUTES --------------------
+// Routes --------------------
 
 // All our routes will start with /api
 app.use('/api', router);
@@ -55,9 +54,9 @@ var requestCount = 0; // track # of requests
 // Used here to keep track of # of requests just for fun.
 router.use(function (req, res, next) {
 	requestCount++;
-	console.log(requestCount + " request(s) made to GrubBudge API.");
+	console.log(requestCount + " request(s) made to the GrubBudge API.");
 	next(); // Fall through to next routes
-})
+});
 
 //Default route
 var homeRoute = router.route('/');
@@ -66,11 +65,172 @@ homeRoute.get(function(req, res) {
   res.json({ message: 'Hello World!' });
 });
 
-//Llama route 
-var llamaRoute = router.route('/llamas');
 
-llamaRoute.get(function(req, res) {
-  res.json([{ "name": "alice", "height": 12 }, { "name": "jane", "height": 13 }]);
+// users route -------------------------------------
+var usersRoute = router.route('/users');
+
+// GET - List of users
+usersRoute.get(function (req, res) {
+	var query = User.find(); // Mongoose query
+
+	// Build query based on request
+    if(req.query.where) {
+        var where = JSON.parse(req.query.where);
+        query.where(where);
+    }
+    if(req.query.sort) {
+        var sort = JSON.parse(req.query.sort);
+        query.sort(sort);
+    }
+    if(req.query.select) {
+        var select = JSON.parse(req.query.select);
+        query.select(select);
+    }
+    if(req.query.skip) {
+        var skip = parseInt(req.query.skip, 10);
+        query.skip(skip);
+    }
+    if(req.query.limit) {
+        var limit = parseInt(req.query.limit, 10);
+        query.limit(limit);
+    }
+    var count = (req.query.count === 'true');
+
+    // If count is requested
+    if(count)
+    	query.count(function (err, count) {
+    		// Error
+    		if (err) {
+    			res.status(500).json({message: 'Internal server error!', data: []});
+    			return;
+    		}
+    		// Success
+    		res.status(200).json({message: 'OK', data: count});
+    	});
+    // count not requested
+    else
+    	query.exec(function (err, users) {
+    		// Error
+    		if (err) {
+    			res.status(500).json({message: 'Internal server error!', data: []});
+    			return;
+    		}
+    		// Success
+    		res.status(200).json({message: 'OK', data: users});
+    	});
+});
+
+// POST - Create a user
+usersRoute.post(function (req, res) {
+	
+	// Check request body for missing required attributes
+	if(!req.body.first) {
+		res.status(400).json({message: 'Missing first name.', data: []});
+		return;
+	}
+	if(!req.body.last) {
+		res.status(400).json({message: 'Missing last name.', data: []});
+		return;
+	}
+	if(!req.body.email) {
+		res.status(400).json({message: 'Missing email address.', data: []});
+		return;
+	}
+	if(!req.body.password) {
+		res.status(400).json({message: 'Missing password.', data: []});
+		return;
+	}
+
+	// Construct user object
+	var newUser = new User();
+	newUser.first = req.body.first;
+	newUser.last = req.body.last;
+	newUser.email = req.body.email;
+	newUser.password = req.body.password;
+	newUser.phone = req.body.phone;
+
+	if(!req.body.mealPlans)
+		newUser.mealPlans = [];
+	else
+		newUser.mealPlans = req.body.mealPlans;
+
+	// Save user object on database
+	newUser.save(function (err, saveduser) {
+		// Handle error
+		if (err) {
+			res.status(500).json({message: 'Email already exists.', data: []});
+			return;
+		}
+		// Success
+		res.status(201).json({message: 'User created.', data: saveduser});
+	});
+});
+
+// OPTIONS 
+usersRoute.options(function (req, res) {
+	res.writeHead(200);
+	res.end();
+});
+
+
+// users/:id route -------------------------------
+var userIdRoute = router.route('/users/:id');
+
+// GET - details of a specific user
+userIdRoute.get(function (req, res) {
+
+	// find user in database
+	User.findById(req.params.id, function (err, user) {
+		// Handle error
+		if (err) {
+			res.status(404).json({message: 'User not found.', data: []});
+			return;
+		}
+		// ID exists, but not assigned to any user
+		if (!user) {
+			res.status(404).json({message: 'User not found.', data: []});
+			return;
+		}
+
+		// Success
+		res.status(200).json({message: 'OK', data: user});
+	});
+});
+
+// PUT - modify existing user
+userIdRoute.put(function (req, res) {
+
+	// find user in database
+	User.findById(req.params.id, function (err, user) {
+		// Handle error
+		if (err) {
+			res.status(404).json({message: 'User not found.', data: []});
+			return;
+		}
+
+		// ID exists, but not assigned to any user
+		if(!user) {
+			res.status(404).json({message: 'User not found.', data: []});
+			return;
+		}
+
+		// Success, now check validity of request
+		if(!req.body.first) {
+			res.status(400).json({message: 'Missing first name.', data: []});
+			return;
+		}
+		if(!req.body.last) {
+			res.status(400).json({message: 'Missing last name.', data: []});
+			return;
+		}
+		if(!req.body.email) {
+			res.status(400).json({message: 'Missing email address.', data: []});
+			return;
+		}
+
+		// Update user object
+
+	});
 });
 
 
