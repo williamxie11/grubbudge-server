@@ -600,6 +600,10 @@ restaurantsRoute.post(function (req, res) {
 		res.status(400).json({message: 'Missing restaurant close times.', data: []});
 		return;
 	}
+	if(!req.body.mealType) {
+		res.status(400).json({message: 'Missing meal types (breakfast, lunch, dinner, latenight).', data: []});
+		return;
+	}
 
 	// Construct restaurant object
 	var newRestaurant = new Restaurant();
@@ -615,6 +619,7 @@ restaurantsRoute.post(function (req, res) {
 	newRestaurant.price = req.body.price;
 	newRestaurant.open = req.body.open;
 	newRestaurant.close = req.body.close;
+	newRestaurant.mealType = req.body.mealType;
 
 	// Save restaurant object to database
 	newRestaurant.save(function (err, savedrestaurant) {
@@ -662,7 +667,7 @@ restaurantIdRoute.get(function (req, res) {
 // PUT - modify existing restaurant
 restaurantIdRoute.put(function (req, res) {
 
-	// find restaurant in database
+	// find meal plan in database
 	Restaurant.findById(req.params.id, function (err, restaurant) {
 		// Handle error
 		if (err) {
@@ -701,6 +706,8 @@ restaurantIdRoute.put(function (req, res) {
 			restaurant.open = req.body.open;
 		if(req.body.close)
 			restaurant.close = req.body.close;
+		if(req.body.mealType)
+			restaurant.mealType = req.body.mealType;
 
 		// Save updated restaurant to database
 		restaurant.save(function (err, savedrestaurant) {
@@ -745,7 +752,6 @@ restaurantIdRoute.delete(function (req, res) {
 		});
 	});
 });
-
 
 
 // Start the server

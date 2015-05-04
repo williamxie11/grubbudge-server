@@ -12,6 +12,7 @@ var RestaurantSchema = new mongoose.Schema({
 	rating: {type: Number},
 	ratingURL: {type: String},
 	yelpURL: {type: String},
+	mealType: {type: [String]},
 	categories: {type: [String], default: []},
 	price: {type: Number},
 	open: {type: [String], default: []},
