@@ -6,6 +6,7 @@ var async = require('async');
 var fs = require('fs');
 
 // Google Places Search/Details API
+// NOTE: Capped at 1000 requests/day
 var GOOGLE_PLACES_API_KEY = "AIzaSyCm7xtB2Oq93Qdfh38fAiUa92OdksKx9IA"
 var GooglePlaces = require("googleplaces");
 var googlePlaces = new GooglePlaces(GOOGLE_PLACES_API_KEY, "json");
@@ -28,21 +29,38 @@ function print(me) {
 	console.log(me);
 }
 
-function writeDataToFile(data, name) {
-	var s = JSON.stringify(data, null, 3);
-	var fileName = name + ".json";
+/* ----- File Writing Functions ----- */
+
+function clearFile(fileName) {
+	fs.truncate(fileName, 0, function() { 
+		print(fileName + " cleared");
+	})
+}
+
+function writeStrToFile(str, fileName) {
+
+}
+
+function writeJSONToFile(data, fileName) {
+	var s = JSON.stringify(data, null, 3);]
 	fs.writeFile(fileName, s, function(err) {
 		if (err) throw err;
 	});
 }
 
-function appendDataToFile(data, name) {
+function appendStrToFile(str, fileName) {
+
+}
+
+function appendJSONToFile(data, name) {
 	var s = JSON.stringify(data, null, 3);
 	var fileName = name + ".json";
 	fs.appendFile(fileName, s, function(err) {
 		if (err) throw err;
 	});
 }
+
+/* ----- Data Retrieval Functions ----- */
 
 // Callback function that appends data from Google Places API
 function addGoogleData(restaurant, lat, lon) {
@@ -76,7 +94,7 @@ function addGoogleData(restaurant, lat, lon) {
 					restaurant["open"] = opens;
 					restaurant["close"] = closes;
 				}
-				appendDataToFile(restaurant, "output");
+				appendJSONToFile(restaurant, "output");
 			});
 		}
 	});
@@ -89,7 +107,7 @@ function addData(data) {
 	var requests = [];
 
 	// Scrub each business for the data that we want from Yelp
-	for (var i = 0; i < businesses.length; i++) {
+	for (var i = 0; i < 1; i++) { // reduced to 1 for testing purposes
 		var rt = businesses[i];
 		var restaurant = new Restaurant();
 		restaurant["name"] = rt.name;
@@ -113,27 +131,31 @@ function addData(data) {
 
 		requests.push(addGoogleData(restaurant, latitude, longitude));
 	}
+
 	async.seq(requests);
 }
 
+// Begins sequential requests to get data starting from the Yelp API
 function getData() {
-	fs.truncate('output.json', 0, function(){ console.log("output.json cleared for new data") })
+	clearFile("output.json");
+	appendStrToFile("{", "output.json");
 	yelp.search({term: term, location: location, sort: sort}, function(error, data) {
 		var err = error;
 		var total = data["total"];
 		var requests = [];
 		for (var offset = 0; offset < total; offset += 20) {
-			//var last = ((offset >= total) ? true : false);
 			var restaurantCB = function(error, data) { 
 				addData(data); 
 			}
 			requests.push(yelp.search({term: term, location: location, offset: offset}, restaurantCB))
 		}
+		print("#   Running async requests for Yelp and Google data.");
 		async.seq(requests);
 	});
 }
 
 function main() {
+	print("#   Script started.");
 	getData();
 }
 
