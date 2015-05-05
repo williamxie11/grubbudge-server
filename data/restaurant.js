@@ -31,6 +31,10 @@ function print(me) {
 
 /* ----- File Writing Functions ----- */
 
+function clearOutputFiles() {
+	clearFile("output.json");
+}
+
 function clearFile(fileName) {
 	fs.truncate(fileName, 0, function() { 
 		print(fileName + " cleared");
@@ -179,7 +183,8 @@ function addData(data) {
 		restaurant["categories"] = [];
 		if (rt.categories) {
 			for (var k = 0; k < rt.categories.length; k++) {
-				restaurant["categories"].push(rt.categories[k][0].toLowerCase());
+				var category = rt.categories[k][0].toLowerCase();
+				restaurant["categories"].push(category);
 			}
 		}
 		restaurant["price"] = 1; // this will be set manually because price data is not given
@@ -195,7 +200,7 @@ function addData(data) {
 
 // Begins sequential requests to get data starting from the Yelp API
 function getData() {
-	clearFile("output.json");
+	clearOutputFiles();
 	yelp.search({term: term, location: location, sort: sort}, function(error, data) {
 		var err = error;
 		var total = data["total"];
