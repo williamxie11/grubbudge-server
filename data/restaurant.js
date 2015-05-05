@@ -1,3 +1,10 @@
+/* NOTE: While this script does get data from Yelp/Google, it currently does not format the output.json  
+ * correctly. To fix the output before running category.js (for category frequency analysis) and rating.js
+ * (to add rating data scraped from Yelp), delete the last trailing comma and enclose the data with square
+ * brackets [].
+ */
+
+
 // Node Dependencies
 var express = require('express');
 var app = express();
@@ -119,23 +126,29 @@ function addGoogleData(restaurant, lat, lon) {
 		if (results.length > 0) {
 			googlePlaces.placeDetailsRequest({reference: results[0]["reference"]}, function (error, response) {
 				if (error) throw error;
-				if (response.result.hasOwnProperty("opening_hours") && response.result["opening_hours"].hasOwnProperty("periods")) {
+				if (response.result.hasOwnProperty("opening_hours") && response.result["opening_hours"].hasOwnProperty("periods") && response.result["opening_hours"]["periods"].length > 0) {
 					var times = response.result["opening_hours"]["periods"];
 					var opens = [];
 					var closes = [];
 
-					// Add opening and closing times for each day of the week
+					// Add opening and closing times for each day of the week if available
 					for (var i = 0; i < 7; i++) {
-						var openingTime = times[i].open["time"];
-						var closingTime = null;
-						if (times[i].close) {
-							closingTime = times[i].close["time"];
-						}
-						opens.push(openingTime);
-						if (closingTime) {
-							closes.push(closingTime);
+						if (times[i]) {
+							var openingTime = null;
+							var closingTime = null;
+							if (times[i].hasOwnProperty("open")) {
+								openingTime = times[i].open["time"];
+							}
+							if (times[i].hasOwnProperty("close")) {
+								closingTime = times[i].close["time"];
+							}
+							opens.push(openingTime);
+							if (closingTime) {
+								closes.push(closingTime);
+							}
 						}
 					}
+
 					restaurant["open"] = opens;
 					restaurant["close"] = closes;
 
