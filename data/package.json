@@ -8,18 +8,11 @@
   ],
   "dependencies": {
     "express": "latest",
-    "grunt": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-copy": "latest",
-    "grunt-express-server": "latest",
     "matchdep": "latest",
     "yelp": "latest",
-    "step": "latest",
     "async": "latest",
-    "googleplaces": "latest"
+    "googleplaces": "latest",
+    "request": "latest",
+    "cheerio": "latest"
   }
 }
