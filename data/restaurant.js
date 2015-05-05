@@ -169,7 +169,7 @@ function addData(data) {
 	var requests = [];
 
 	// Scrub each business for the data that we want from Yelp
-	for (var i = 0; i < 1; i++) { // reduced to 1 for testing purposes
+	for (var i = 0; i < businesses.length; i++) {
 		var rt = businesses[i];
 		var restaurant = new Restaurant();
 		restaurant["name"] = rt.name;
@@ -187,7 +187,7 @@ function addData(data) {
 				restaurant["categories"].push(category);
 			}
 		}
-		restaurant["price"] = 1; // this will be set manually because price data is not given
+		restaurant["price"] = 1; // this will be adjusted in rating.js
 
 		// Set up callback requests to get more detail from Google Places
 		var latitude = rt.location.coordinate.latitude;
