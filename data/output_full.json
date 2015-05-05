@@ -35,7 +35,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Little Caesars Pizza",
       "lat": 40.094421,
       "lon": -88.191162,
@@ -69,7 +70,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.111816,
       "lon": -88.159988,
@@ -105,7 +107,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Dairy Queen",
       "lat": 40.117947,
       "lon": -88.041191,
@@ -140,7 +143,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Office II",
       "lat": 40.113575,
       "lon": -88.28257,
@@ -175,7 +179,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Domino's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/CxRbjxTjZDIRc5_OOO_BeQ/ms.jpg",
       "lat": 40.1274400949478,
@@ -213,7 +218,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Wendy's",
       "lat": 40.1096334824837,
       "lon": -88.2272770790335,
@@ -249,7 +255,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Burrito King",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/cR4f6kMjzfGEBZVi8jK0SA/ms.jpg",
       "lat": 40.1166115,
@@ -286,7 +293,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Niro's Gyros",
       "lat": 40.10519,
       "lon": -88.243858,
@@ -320,7 +328,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Black Rock Pizza",
       "lat": 40.1112417,
       "lon": -88.2071629,
@@ -355,7 +364,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Einstein Bros Bagels",
       "lat": 40.199139,
       "lon": -88.393021,
@@ -371,7 +381,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Arby's",
       "lat": 40.0842794081498,
       "lon": -88.2463756759359,
@@ -405,7 +416,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Dairy Queen",
       "lat": 40.073486790061,
       "lon": -88.2514002174139,
@@ -441,7 +453,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/KlB-KGF0w6KvEAxlD2ZAEg/ms.jpg",
       "lat": 40.118587,
@@ -477,7 +490,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.1133842,
       "lon": -88.3147354,
@@ -513,7 +527,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sarku Japan",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/eK7I7bzHMsVYsVhWE4myog/ms.jpg",
       "lat": 40.143219,
@@ -548,7 +563,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hardee's",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/-2EXD6KPC-GkqcIOGCPCCQ/ms.jpg",
       "lat": 40.1279261700964,
@@ -584,7 +600,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "lat": 40.112511,
       "lon": -88.27726,
@@ -618,7 +635,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Six Minute Chinese",
       "lat": 40.109989,
       "lon": -88.240509,
@@ -651,7 +669,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Dairy Queen",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/RQIq57tuom4atcEfTTU5LQ/ms.jpg",
       "lat": 40.158535,
@@ -687,7 +706,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "KFC",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/6St0kj0CjED1qCmVDB3I4Q/ms.jpg",
       "lat": 40.1163,
@@ -724,7 +744,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sbarro",
       "lat": 40.1102409,
       "lon": -88.2271194,
@@ -759,7 +780,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Panda Express",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/q1V83JRkO96hm461lsLtJw/ms.jpg",
       "lat": 40.1105984,
@@ -794,7 +816,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pizza Hut",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/omJ4tzVFTsb5SPVGD4GEcw/ms.jpg",
       "lat": 40.0706605254016,
@@ -832,7 +855,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Burger King",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/2P_sLxxYNR_FGfZlYv65tA/ms.jpg",
       "lat": 40.0981369614601,
@@ -867,7 +891,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Little Caesar's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/3apZ88LcMMLKQi5ln3ufGg/ms.jpg",
       "lat": 40.1025733947754,
@@ -902,7 +927,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Roch's",
       "lat": 40.1115531921387,
       "lon": -88.0419235229492,
@@ -918,7 +944,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Arby's",
       "lat": 40.196384,
       "lon": -88.399315,
@@ -953,7 +980,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Culver's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/00cd3we5094TSUt-HQAqow/ms.jpg",
       "lat": 40.085621,
@@ -989,7 +1017,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mashawi Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/AoLEwM9yRSk2og26b3qwvw/ms.jpg",
       "lat": 40.110633,
@@ -1024,7 +1053,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "China King",
       "lat": 40.0885429,
       "lon": -88.246315,
@@ -1058,7 +1088,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hen House Restaurant",
       "lat": 40.1895294,
       "lon": -88.4078217,
@@ -1093,7 +1124,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Q Smokehouse",
       "lat": 40.1101850680947,
       "lon": -88.229465074965,
@@ -1127,7 +1159,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Black Rock Pizza",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/_rWXPBs0OK431I26Be8kDg/ms.jpg",
       "lat": 40.110611,
@@ -1162,7 +1195,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/BfrWiB5OTAiwIhqGOvUHUw/ms.jpg",
       "lat": 40.126987,
@@ -1199,7 +1233,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Super Wok",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/ivJqCgf4ipNVm98OyuJIyg/ms.jpg",
       "lat": 40.0981979817152,
@@ -1235,7 +1270,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Papa Murphy's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/PjAe2kKgiCNN5hOgfVkYHQ/ms.jpg",
       "lat": 40.0981952995062,
@@ -1271,7 +1307,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Padanos Pizza",
       "lat": 40.1127510070801,
       "lon": -88.0419387817383,
@@ -1286,7 +1323,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Panda Express",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/X-hD-ybNE4v90jg4vsiYZA/ms.jpg",
       "lat": 40.1453029364347,
@@ -1321,7 +1359,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Tortica's Grill",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/nSaxxAuSyZHid_bXgtpZxA/ms.jpg",
       "lat": 40.1102881,
@@ -1356,7 +1395,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taco Bell",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/DZp8dCAPmwfJ_EmLAxcFAg/ms.jpg",
       "lat": 40.112702,
@@ -1393,7 +1433,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Auntie Lee's Chinese Kitchen",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/J0SMYXttFh-JS3exXF3hgQ/ms.jpg",
       "lat": 40.1101985,
@@ -1427,7 +1468,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Derald's Diner",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/ShClSGKqf2xMOTXZyw67rA/ms.jpg",
       "lat": 40.110374,
@@ -1461,7 +1503,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Bob Evans",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/JdqjNSo6I9VHsZdeDDUiDQ/ms.jpg",
       "lat": 40.1375389,
@@ -1497,7 +1540,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "lat": 40.0974044799805,
       "lon": -88.1912078857422,
@@ -1532,7 +1576,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Casey's Carry Out Pizza",
       "lat": 39.9903450161219,
       "lon": -88.2615523785353,
@@ -1567,7 +1612,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Great Steak",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/A8MbyZtF3w4_33wZ8OR0BA/ms.jpg",
       "lat": 40.1409492,
@@ -1603,7 +1649,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hot Wok Express",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/XHNixKWKPtMxglvFL3FWKA/ms.jpg",
       "lat": 40.1166992,
@@ -1639,7 +1686,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Big J J Fish & Chicken",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/dqSiJIDlGjqZvycjyUgxKQ/ms.jpg",
       "lat": 40.126987,
@@ -1676,7 +1724,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/1pNIeuXM8dE7lKCdtgHhDw/ms.jpg",
       "lat": 40.097946,
@@ -1695,7 +1744,8 @@
       ],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Sonic",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/SOX__SkJRUBOdzSYqC8z9A/ms.jpg",
       "lat": 40.121346,
@@ -1730,7 +1780,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.0834704033912,
       "lon": -88.1894694792027,
@@ -1766,7 +1817,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taco Motorizado",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/i45Cj9YdNIO6QA2RRiE2sw/ms.jpg",
       "lat": 40.1186104,
@@ -1803,7 +1855,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Which Wich",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/k1SY2xvUtjEe7P6dSwinBA/ms.jpg",
       "lat": 40.1104393,
@@ -1838,7 +1891,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Long John Silver's Seafood",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/en4kOOZbdu6WxgG4fGaEdQ/ms.jpg",
       "lat": 40.129047,
@@ -1873,7 +1927,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Za's On Springfield",
       "lat": 40.113209,
       "lon": -88.282005,
@@ -1907,7 +1962,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Qdoba",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/sU0b8KOlXHhLJXUxQzxKyA/ms.jpg",
       "lat": 40.1102409,
@@ -1943,7 +1999,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "China King",
       "lat": 40.1130867,
       "lon": -88.0453491,
@@ -1958,7 +2015,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "The Empanadas House",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/MiUAZCL_C3GXj95kZsD-Fg/ms.jpg",
       "lat": 40.1110458,
@@ -1995,7 +2053,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/i4GOLRR6jnFktsI9dFDGyg/ms.jpg",
       "lat": 40.1326447,
@@ -2031,7 +2090,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hardee's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/lIwLKahhmAaLa0Kcf7xM6Q/ms.jpg",
       "lat": 40.0957298,
@@ -2067,7 +2127,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sushi San",
       "lat": 40.1102409,
       "lon": -88.2271194,
@@ -2102,7 +2163,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Minneci's Ristorante",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/gSN4ixmx41E_OIY3cfg2Cg/ms.jpg",
       "lat": 40.0817119270296,
@@ -2138,7 +2200,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Wedge Tequila Bar & Grill",
       "lat": 40.083447,
       "lon": -88.297333,
@@ -2174,7 +2237,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Sunny China Buffet",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/WYVUkqRkq0IppqED6os5Zw/ms.jpg",
       "lat": 40.0976867675781,
@@ -2210,7 +2274,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Popeyes",
       "lat": 40.133679605037,
       "lon": -88.2602039487177,
@@ -2245,7 +2310,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "First Wok",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/QO6tniodEcXyUUgW6lgNnA/ms.jpg",
       "lat": 40.0964994728565,
@@ -2280,7 +2346,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/ijTqBUX6e1RaHEqriadVCQ/ms.jpg",
       "lat": 40.0981293,
@@ -2316,7 +2383,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Steak 'n Shake",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/tpAaI_EpkgVw3sXkcjbXcw/ms.jpg",
       "lat": 40.133244,
@@ -2354,7 +2422,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pizza Hut",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/dl5xnKM3pCyg4CWYK9eavw/ms.jpg",
       "lat": 40.1202393,
@@ -2391,7 +2460,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Wendy's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/EN9oloDgkVa5YhWzXcX1Rw/ms.jpg",
       "lat": 40.140343,
@@ -2428,7 +2498,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "V. Picasso",
       "lat": 40.1172409,
       "lon": -88.2432022,
@@ -2463,7 +2534,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "China Garden",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/TifJGGqbkTf3sp6Bwg8g2Q/ms.jpg",
       "lat": 40.112701356411,
@@ -2499,7 +2571,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Casey's Carry Out Pizza",
       "lat": 40.196266,
       "lon": -88.364822,
@@ -2516,7 +2589,8 @@
       ],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/--NIG4QKryXPJPu05Nii6g/ms.jpg",
       "lat": 40.1100693,
@@ -2550,7 +2624,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Kabob House",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/tAslR-1ecvauNvBnkBYxTg/ms.jpg",
       "lat": 40.112846,
@@ -2584,7 +2659,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.137852,
       "lon": -88.255508,
@@ -2620,7 +2696,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Espresso Royale",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/Osu2of-vOzhi729V7iDizQ/ms.jpg",
       "lat": 40.083412,
@@ -2657,7 +2734,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "KFC",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/chZ-uAwX428BJ2dwFli87A/ms.jpg",
       "lat": 40.0712,
@@ -2694,7 +2772,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/qf8fb8vxG6jsIn1ZvSOD1A/ms.jpg",
       "lat": 40.1168289,
@@ -2730,7 +2809,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "lat": 40.1183701,
       "lon": -88.204689,
@@ -2766,7 +2846,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Arby's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/9vdsyHQ4Y5oIS1J1nu6gcA/ms.jpg",
       "lat": 40.131123,
@@ -2802,7 +2883,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.0997892022133,
       "lon": -88.2443795353174,
@@ -2838,7 +2920,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonalds",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/ovwojKThJZ0jbgPb0GiYbg/ms.jpg",
       "lat": 40.1104207856346,
@@ -2875,7 +2958,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Einstein Bros Bagels",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/cwvy6HwWIMlIHmR8YTiyJQ/ms.jpg",
       "lat": 40.1365794370765,
@@ -2912,7 +2996,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Peking House Restaurant",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/HBHCEphR4MnjVQjyJUeQCw/ms.jpg",
       "lat": 40.195004,
@@ -2930,7 +3015,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Ming Garden",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/AckRvJeAtszpT0rrB4vd0w/ms.jpg",
       "lat": 40.102573411255,
@@ -2965,7 +3051,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Tasty Fish Chicken & Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/-Yn7cpHnWc7nCYMyFSRF-Q/ms.jpg",
       "lat": 40.122345,
@@ -3002,7 +3089,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Merry Ann's Diner",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/5TFAgdhJlNaiO5mRqr4ENw/ms.jpg",
       "lat": 40.1069031,
@@ -3038,7 +3126,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Filippo's Pizza and Italian Food of Mahomet",
       "lat": 40.197159,
       "lon": -88.36628,
@@ -3056,7 +3145,8 @@
       ],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "The Main Street Wingery",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/jCvYdKQK5bgxWQqGEsCEqg/ms.jpg",
       "lat": 40.194428,
@@ -3094,7 +3184,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "lat": 40.1316986,
       "lon": -88.2583771,
@@ -3128,7 +3219,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Burrito King at Torticas",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/PMw4HB7cjJ-cotorgz_gIA/ms.jpg",
       "lat": 40.111525,
@@ -3163,7 +3255,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Fazoli's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/75yTdvvkF5TCsv0a91026Q/ms.jpg",
       "lat": 40.1398392,
@@ -3199,7 +3292,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Illini Union Ballroom Dining",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/DB4ieVS1UPg-t9oai5C46g/ms.jpg",
       "lat": 40.1104147732258,
@@ -3235,7 +3329,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mas Amigos",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/eVFI-VykSZZHV4AiX6CfOA/ms.jpg",
       "lat": 40.1166489377499,
@@ -3272,7 +3367,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Ryan's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/31OWwU4bcSTy04oZXz2iug/ms.jpg",
       "lat": 40.136306,
@@ -3310,7 +3406,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Sonic",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/w5vbLrypVk3WFTOfDGsDlA/ms.jpg",
       "lat": 40.0594340264797,
@@ -3346,7 +3443,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sbarro",
       "lat": 40.1409492,
       "lon": -88.2445221,
@@ -3380,7 +3478,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sammy's Pancake House",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/s-JfOepcsMBjSghcie_psA/ms.jpg",
       "lat": 40.128391,
@@ -3416,7 +3515,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.0982020050287,
       "lon": -88.2748105376959,
@@ -3452,7 +3552,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Amano's Pizza",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/Bc3SoOSOuqwRl11sdPXq4Q/ms.jpg",
       "lat": 40.0995658,
@@ -3488,7 +3589,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Voice KTV",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/nPTr1BodKqXOBZAPbrCLjQ/ms.jpg",
       "lat": 40.110984,
@@ -3522,7 +3624,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "JT Walker's Restaurant and Brewery",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/JUwB8noGtXCdsOEixbs5qA/ms.jpg",
       "lat": 40.19495,
@@ -3559,7 +3662,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Hooters",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/x_gN6byoPhnZiR5TZ2hjmA/ms.jpg",
       "lat": 40.095257,
@@ -3597,7 +3701,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Papa Del's Pizza At the Crossing",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/KAV7SenQKSN25O2wMVZVXA/ms.jpg",
       "lat": 40.0812721,
@@ -3633,7 +3738,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Buvons Wine Bar",
       "lat": 40.113869,
       "lon": -88.205383,
@@ -3668,7 +3774,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/khIB-A82Nt_x96GyUamm3w/ms.jpg",
       "lat": 40.192108,
@@ -3705,7 +3812,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Wingstop",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/RkXToPOOz0vfPLgHQIvpHA/ms.jpg",
       "lat": 40.110411,
@@ -3739,7 +3847,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Papa D's Bar & Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/Q8U0DywJjDbrXpvQwLSCCg/ms.jpg",
       "lat": 40.1102514,
@@ -3775,7 +3884,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Attie's Bar & Grill",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/oauJS1UGOJLA3TmFI-sdSg/ms.jpg",
       "lat": 40.0878094,
@@ -3811,7 +3921,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Einstein Bros Bagels",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/vvUxHKow8tkvQqWV_6DTPg/ms.jpg",
       "lat": 40.116138,
@@ -3848,7 +3959,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Manzellas Italian Restaurant",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/7o9FenNIb8ABokJdWFE1rA/ms.jpg",
       "lat": 40.1158981,
@@ -3886,7 +3998,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Bonnie Jean's",
       "lat": 40.1093139648438,
       "lon": -88.2118911743164,
@@ -3920,7 +4033,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pia's Sports Bar & Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/qySmtVwhzWyAr23U9HMxkQ/ms.jpg",
       "lat": 40.112526,
@@ -3956,7 +4070,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Garcia's Pizza in A Pan - Dine in and Carry Out",
       "lat": 40.11022,
       "lon": -88.23787,
@@ -3990,7 +4105,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/E2oH_sPeuIzrcmq6QzY43w/ms.jpg",
       "lat": 40.11063,
@@ -4026,7 +4142,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/MI9T5IQ_Ut7cs-uLOPzgKg/ms.jpg",
       "lat": 40.118026,
@@ -4062,7 +4179,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "K-Bowl",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/TmyN_y5ske5t-OhE-Q8Epg/ms.jpg",
       "lat": 40.109988,
@@ -4096,7 +4214,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Caribbean Grill Lunch To Go! at Refinery",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/28btjfsVzrFScyL8HyUJrQ/ms.jpg",
       "lat": 40.1097589,
@@ -4133,7 +4252,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/DNi0w_QHDYtxhso3JLY2wA/ms.jpg",
       "lat": 40.110107,
@@ -4168,7 +4288,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Papa John's Pizza",
       "lat": 40.098091,
       "lon": -88.192696,
@@ -4202,7 +4323,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Panera Bread",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/7Hd-walVgNBW7HePMVsbjA/ms.jpg",
       "lat": 40.1385117,
@@ -4239,7 +4361,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "White Horse Inn",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/OM1L92rNVY2c58Bj1wvYjg/ms.jpg",
       "lat": 40.109337,
@@ -4275,7 +4398,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/94AGRcBENNyjwByjPP2B7w/ms.jpg",
       "lat": 40.1065483,
@@ -4312,7 +4436,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Bo Bo China",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/hayWAhZdEqCHQWMNLmj9Fw/ms.jpg",
       "lat": 40.1104164,
@@ -4347,7 +4472,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Far East",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/KakzsGm0Xh6GPom85JcnUQ/ms.jpg",
       "lat": 40.115755,
@@ -4383,7 +4509,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Panera Bread",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/rtJnL9yv0vlNPZ-N0xFE5g/ms.jpg",
       "lat": 40.0981993228197,
@@ -4421,7 +4548,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.0835037,
       "lon": -88.2964096,
@@ -4457,7 +4585,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Hickory River Smokehouse",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/LgKXmoc6ZAhbrRKbAMRvHA/ms.jpg",
       "lat": 40.128651,
@@ -4493,7 +4622,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mandarin Wok",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/khbDzJ3A46wKfouvzMg9Hw/ms.jpg",
       "lat": 40.1100082,
@@ -4528,7 +4658,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Burger King",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/Otz-4-8xWubmn30VDLYLMg/ms.jpg",
       "lat": 40.14222,
@@ -4565,7 +4696,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Boneyard Bar & Bbq",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/B7ZOk3nvnTXxYIc-J7m5RQ/ms.jpg",
       "lat": 40.1121407,
@@ -4600,7 +4732,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Bobo China",
       "lat": 40.1103289062151,
       "lon": -88.2317519285425,
@@ -4634,7 +4767,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Steak 'n Shake",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/D5TjUNJi0vaYFQuKbsUguw/ms.jpg",
       "lat": 40.140462,
@@ -4671,7 +4805,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Niro's Gyros",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/W5j5ekartcHT_h_Rd91rjw/ms.jpg",
       "lat": 40.112419,
@@ -4706,7 +4841,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.1409492,
       "lon": -88.2445221,
@@ -4741,7 +4877,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Yellowfin",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/k8OFJ-woW11sIr-BqQdS0w/ms.jpg",
       "lat": 40.098747,
@@ -4778,7 +4915,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Silver Mine Subs",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/7EUlddVxMWWErP6LUdJAwQ/ms.jpg",
       "lat": 40.108173,
@@ -4813,7 +4951,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sushi Ichiban",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/buJcGo7hWG_1unKZ6HiN1Q/ms.jpg",
       "lat": 40.1108208,
@@ -4849,7 +4988,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Arby's",
       "lat": 40.112408,
       "lon": -88.279411,
@@ -4883,7 +5023,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Kofusion",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/lglNhT_InWzWCXAWAdp7ZA/ms.jpg",
       "lat": 40.1068226779779,
@@ -4920,7 +5061,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Silvercreek",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/NL1uFz0GG1d_VJ6l-guknA/ms.jpg",
       "lat": 40.115461,
@@ -4958,7 +5100,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Ruby Tuesday",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/cOwO2VIfvDoFJgOiDSpYTA/ms.jpg",
       "lat": 40.1440162658691,
@@ -4994,7 +5137,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "TGI Friday's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/zxl1ZG1cy_0JpvbKLnybpQ/ms.jpg",
       "lat": 40.1375274658203,
@@ -5029,7 +5173,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Ichiban Buffet",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/0Dje76f_zNg-VIOPlaRDVg/ms.jpg",
       "lat": 40.117393,
@@ -5066,7 +5211,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Fiesta Cafe",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/Ll7JUvbWRShr6UYnfCQOKQ/ms.jpg",
       "lat": 40.114735,
@@ -5100,7 +5246,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Jet's Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/XbmdtoxxVumqFnqjzYa6cQ/ms.jpg",
       "lat": 40.1104088,
@@ -5134,7 +5281,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Cracker Barrel Old Country Store",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/_cnEmrpQ79W0KHoPIor5gw/ms.jpg",
       "lat": 40.1333809,
@@ -5170,7 +5318,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Apple Dumpling",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/QF94zOF33fSA6O1BCuuBKA/ms.jpg",
       "lat": 40.1336703544176,
@@ -5202,7 +5351,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Chipotle Mexican Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/Ht9J8n1s3vPPtKQMCSBH8A/ms.jpg",
       "lat": 40.137914121151,
@@ -5239,7 +5389,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "The Ribeye",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/dlctMIlD9b4PlH0kSYli2A/ms.jpg",
       "lat": 40.096096,
@@ -5275,7 +5426,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Papa John's Pizza",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/rnGWrh2Ky6N4kUqD9gQVig/ms.jpg",
       "lat": 40.1132507,
@@ -5310,7 +5462,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "El Toro Bravo",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/CaECVO9oG5lpQqxTQ0wK8w/ms.jpg",
       "lat": 40.1128159,
@@ -5346,7 +5499,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Penn Station",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/Nw8DuLeBQnjM7t8jYJhXPQ/ms.jpg",
       "lat": 40.110756,
@@ -5383,7 +5537,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Bread Company",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/WAzlzw7gTZn22Lv5Y0jAbw/ms.jpg",
       "lat": 40.106758,
@@ -5421,7 +5576,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Wok - Chinese Express",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/GKW4myc1yBk5e7UqJ9ykUQ/ms.jpg",
       "lat": 40.195744,
@@ -5437,7 +5593,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "KFC",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/X9ivZ4kPgo6097gg-qOZTg/ms.jpg",
       "lat": 40.1127,
@@ -5473,7 +5630,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "El Progreso Tienda Y",
       "lat": 40.1332699,
       "lon": -88.2605186,
@@ -5507,7 +5665,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sitara",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/JdTVxEEPPNTJt4ZxdBvONw/ms.jpg",
       "lat": 40.111959,
@@ -5544,7 +5703,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/cgMq4bKoLUUfhyAoR1k_og/ms.jpg",
       "lat": 39.98906,
@@ -5581,7 +5741,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Cafe Sababa",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/AfOCXW7tbFzPiVfRM3INZA/ms.jpg",
       "lat": 40.108734,
@@ -5618,7 +5779,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Milk Tea House",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/TUwMwZvunnFQyCnvQPd-eQ/ms.jpg",
       "lat": 40.110554,
@@ -5656,7 +5818,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taco Bell",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/QrN6TXUJHsjw8h40eRWPOQ/ms.jpg",
       "lat": 40.137098,
@@ -5693,7 +5856,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hen House Family Restaurant",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/t7rrPOHNW8iya1Z6i_nGNQ/ms.jpg",
       "lat": 40.1963847712854,
@@ -5729,7 +5893,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/lGZojewVLpf8IL6SZZv-rQ/ms.jpg",
       "lat": 40.1207275,
@@ -5765,7 +5930,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "I Wok",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/KrFXuuX_JKLGqNVBInUmkQ/ms.jpg",
       "lat": 40.0593338,
@@ -5801,7 +5967,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Intermezzo Café",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/Oci5jby6gql7xNxWQybHBA/ms.jpg",
       "lat": 40.108,
@@ -5838,7 +6005,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Red Lion",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/nZjjsDvqwQunTXaU7t0_DA/ms.jpg",
       "lat": 40.109909,
@@ -5873,7 +6041,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Arby's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/7N5YbsFtr8jBf3eyk5WwNg/ms.jpg",
       "lat": 40.1178207,
@@ -5909,7 +6078,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "HomeTown Buffet",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/WyTpsqtWT7Ccw8RqRUZILA/ms.jpg",
       "lat": 40.144166,
@@ -5946,7 +6116,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Garcia's Pizza In A Pan",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/XZJ2u4c9SVHT836A5LRfzw/ms.jpg",
       "lat": 40.119061,
@@ -5981,7 +6152,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Courier Cafe",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/-ZogMQ5V3bEJ2umahTdWMg/ms.jpg",
       "lat": 40.1128225269109,
@@ -6019,7 +6191,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/XGu6PPsVuZVy3i80qYuwZg/ms.jpg",
       "lat": 40.0833818,
@@ -6055,7 +6228,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Best Wok",
       "lat": 40.1379509,
       "lon": -88.260643,
@@ -6090,7 +6264,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Buffalo Wild Wings",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/4xRiQChz3bLiRjReU5rdEQ/ms.jpg",
       "lat": 40.1379509,
@@ -6128,7 +6303,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Cravings",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/N4mVdhIilXEgnmP68Q33Dg/ms.jpg",
       "lat": 40.111220370343005,
@@ -6165,7 +6341,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "El Charro",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/aZM4GrcguyWm0pijwVxj2w/ms.jpg",
       "lat": 40.1099205,
@@ -6199,7 +6376,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Super Niro Gyro",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/SdQPKEbR8EribhokZSgZWw/ms.jpg",
       "lat": 40.1432102493435,
@@ -6235,7 +6413,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Peking Garden Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/OWcFoKMZYpeas05gMCuovQ/ms.jpg",
       "lat": 40.1175308,
@@ -6271,7 +6450,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Rosati's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/mo-UWaAsaHijJQSZFiFKTQ/ms.jpg",
       "lat": 40.1065483,
@@ -6307,7 +6487,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pekara Bakery and Bistro",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/lEdDw46bDZVwXylIzK8OVA/ms.jpg",
       "lat": 40.1169312000275,
@@ -6345,7 +6526,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Dynamic Sound",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/_82wVc2eZq7gO17_d2vRDA/ms.jpg",
       "lat": 40.4797096252441,
@@ -6381,7 +6563,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Za's Italian Cafe",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/L0-PxM3eAvg4TogUWLgdQg/ms.jpg",
       "lat": 40.113209,
@@ -6416,7 +6599,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Burger King",
       "lat": 40.0706497610587,
       "lon": -88.2489681243896,
@@ -6452,7 +6636,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Toro Loco",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/E6SYoIqcw1Tj1iDb-nY-Dw/ms.jpg",
       "lat": 40.128228,
@@ -6487,7 +6672,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Domino's Pizza",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/g3byRLcZ-0OHrtDaazA7Qg/ms.jpg",
       "lat": 40.1239210367203,
@@ -6525,7 +6711,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Super Taco",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/YYeWssHeANVU1s-qBRRxDQ/ms.jpg",
       "lat": 40.1416706080895,
@@ -6561,7 +6748,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Stone Baked Pizzeria",
       "lat": 40.107662,
       "lon": -88.233757,
@@ -6595,7 +6783,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jimmy John's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/R5Pd_DGRdtmdgw1IIl-bNw/ms.jpg",
       "lat": 40.1058422774076,
@@ -6631,7 +6820,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Derald's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/iE6jqYRnwcpOTnJ4NiQSJQ/ms.jpg",
       "lat": 40.110499933362,
@@ -6668,7 +6858,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Po' Boys Restaurant",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/9m-5-NugprPqJmlLCGh5sQ/ms.jpg",
       "lat": 40.116791,
@@ -6705,7 +6896,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Fiesta Ranchera",
       "lat": 40.0940514,
       "lon": -88.245842,
@@ -6740,7 +6932,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Wendy's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/pwqodpXEaVwAeinwgwSQ5Q/ms.jpg",
       "lat": 40.1172246,
@@ -6777,7 +6970,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Buca di Beppo Italian Restaurant",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/kD2zZUw11YHg-4I_94RSXQ/ms.jpg",
       "lat": 40.143219,
@@ -6813,7 +7007,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sakanaya Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/e0EPlY2beHjyc0dwR36ycQ/ms.jpg",
       "lat": 40.1100082,
@@ -6849,7 +7044,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Huaraches Moroleon",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/rXs3psAengdGYDFzDReKNQ/ms.jpg",
       "lat": 40.1058578491211,
@@ -6884,7 +7080,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Lai Lai Wok",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/vNVHLAIFZ9pDTKZuVBUJTA/ms.jpg",
       "lat": 40.110531,
@@ -6919,7 +7116,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Legends",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/7GHYfQ-7vYcpmyXdBRsl-A/ms.jpg",
       "lat": 40.110619,
@@ -6955,7 +7153,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Murphy's Pub",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/8gAX9mUDlHbhDWSqRcWliA/ms.jpg",
       "lat": 40.1103799066466,
@@ -6991,7 +7190,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Evo Cafe",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/4ym0ngY0ZGvSLZMjmwH0NA/ms.jpg",
       "lat": 40.109459,
@@ -7026,7 +7226,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "ChinaTown Buffet",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/vj158VLlyz70IhBmx_eTtA/ms.jpg",
       "lat": 40.1372719,
@@ -7063,7 +7264,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Nitaya Thai",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/YSzh1tbuxq3pTeo9eeKltg/ms.jpg",
       "lat": 40.118534,
@@ -7099,7 +7301,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Cheese and Crackers",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/3mTB8pSrhKU7xXfGjZltYw/ms.jpg",
       "lat": 40.0982013344765,
@@ -7137,7 +7340,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Shanghai 1938",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/KcGdFGFoBbaLu-kl30Bu-Q/ms.jpg",
       "lat": 40.0822044585364,
@@ -7173,7 +7377,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Aroma Curry House",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/oYvImwNj8RURGab76_NR8Q/ms.jpg",
       "lat": 40.081897,
@@ -7209,7 +7414,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Dublin O'Neil's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/aKaQ-VjwLss4TfGD1OulEw/ms.jpg",
       "lat": 40.1187706,
@@ -7245,7 +7451,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Flat Top Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/ZBwibQEL0GECDwedBIfhTA/ms.jpg",
       "lat": 40.1114257,
@@ -7281,7 +7488,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jupiter's Pizzeria and Billards",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/mJ_5ryxbI_kSjjgDrz3QwQ/ms.jpg",
       "lat": 40.0816879,
@@ -7319,7 +7527,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Miga",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/s7mHZLdfkcsbr5QLsFJxKQ/ms.jpg",
       "lat": 40.1183926387326,
@@ -7355,7 +7564,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Thara Thai",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/GbIjOiO22pPLQMuFO2Evuw/ms.jpg",
       "lat": 40.13377,
@@ -7391,7 +7601,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "The Highdive",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/esGwqI65-9u0ArP9Or_qvw/ms.jpg",
       "lat": 40.117744,
@@ -7428,7 +7639,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Domino's Pizza",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/v6792Iwq8wCuFlo0wwWlXA/ms.jpg",
       "lat": 40.11042,
@@ -7464,7 +7676,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Pizza Hut",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/luby0EQQkSbY3I5UzFMuSw/ms.jpg",
       "lat": 40.110027,
@@ -7501,7 +7714,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Ambar India",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/vZUEAW0ezG3DbM_dRe5iLg/ms.jpg",
       "lat": 40.1113654,
@@ -7536,7 +7750,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Don Juan Cocina Mexicana & Cantina",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/VqtdOzTWrjjb3CLQCam84w/ms.jpg",
       "lat": 40.116699,
@@ -7572,7 +7787,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Old Orchard Lanes",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/wPEulCW7wcmwS59JF0dALQ/ms.jpg",
       "lat": 40.0651820003986,
@@ -7590,7 +7806,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Old Chicago",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/npfNBcoEzYRGVw5kjvtZJw/ms.jpg",
       "lat": 40.1398888,
@@ -7627,7 +7844,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Golden Harbor Authentic Chinese Cuisine",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/TF-2hUfDx4dya5V20Pwe5A/ms.jpg",
       "lat": 40.1111201941967,
@@ -7661,7 +7879,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Rainbow Garden",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/6xXhhviYVz5DpBnydPZoDw/ms.jpg",
       "lat": 40.1004447937012,
@@ -7697,7 +7916,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Caffe Paradiso",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/s0yNuvLTRgZVAB_Jzw-_iA/ms.jpg",
       "lat": 40.1062584,
@@ -7734,7 +7954,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Vinny's East Coast Pizzeria",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/tm0B3Z_nEcMoOVvLgF7H9Q/ms.jpg",
       "lat": 40.097832,
@@ -7770,7 +7991,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Billy Barooz Bar & Grill",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/KMTeZiHOVCXSSmpxyvZXCg/ms.jpg",
       "lat": 40.080982,
@@ -7807,7 +8029,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Panera Bread",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/H-LAqDUwRhk5ykw8hO_Zzg/ms.jpg",
       "lat": 40.11063,
@@ -7844,7 +8067,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Papa John's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/O6VXyPPuGTnFf7QjpRUIFQ/ms.jpg",
       "lat": 40.110512,
@@ -7878,7 +8102,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Black Dog Smoke & Ale House",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/S6dL66vmVRYPKoIXexA8bA/ms.jpg",
       "lat": 40.113818215463,
@@ -7914,7 +8139,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Boomerang's Bar & Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/ZepMm8IdrO61lzpqvHSJKA/ms.jpg",
       "lat": 40.104935,
@@ -7950,7 +8176,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Culver's",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/GXFsVgFfV4sWTlStdggvCA/ms.jpg",
       "lat": 40.137817,
@@ -7988,7 +8215,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Caffebene",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/6Drn0hGVSm89JNouwduBMw/ms.jpg",
       "lat": 40.1069144904613,
@@ -8026,7 +8254,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Curtis Orchard & Pumpkin Patch",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/iTN860gG_Z-TUryTBk7bgA/ms.jpg",
       "lat": 40.0634243532044,
@@ -8042,7 +8271,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Houlihan's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/ko1iwuoSe9iufB6bQZ5abA/ms.jpg",
       "lat": 40.0935287,
@@ -8079,7 +8309,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Hot Pot Lab",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/dwYeW9whAHDazBm-bqVOIA/ms.jpg",
       "lat": 40.110519,
@@ -8115,7 +8346,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Firehouse Pizza",
       "lat": 40.112537,
       "lon": -88.246277,
@@ -8148,7 +8380,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Bunny's Tavern",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/yvmjdFzE1xNTU_5ruSJ5hg/ms.jpg",
       "lat": 40.113201,
@@ -8185,7 +8418,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Zorba's Restaurant",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/a0NzT1mEiF416ex9bTqKZg/ms.jpg",
       "lat": 40.110084,
@@ -8220,7 +8454,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Boltini Lounge",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/FxCPUcN_FfUM-YK4ZdmdDw/ms.jpg",
       "lat": 40.117733,
@@ -8257,7 +8492,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Merry-Ann's Diner",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/8lRcw5ijaCTtaurzqPjlgw/ms.jpg",
       "lat": 40.1181331447692,
@@ -8293,7 +8529,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Potbelly Sandwich Shop",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/1exMN1rbO5ekWI92ChvXyw/ms.jpg",
       "lat": 40.1100629,
@@ -8330,7 +8567,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Chili's Grill & Bar",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/4wa_LrtK0jrwk1ka4BRnfw/ms.jpg",
       "lat": 40.139015,
@@ -8368,7 +8606,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/40YGPv57DKbePWd_daxZvg/ms.jpg",
       "lat": 40.115589,
@@ -8403,7 +8642,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "The Y Eatery",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/lscwfcCcOEA36Gl_JYBD9Q/ms.jpg",
       "lat": 40.106541,
@@ -8438,7 +8678,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Home of Gourmet Chinese & Thai Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/obcdWQ0oz3Q6EwurvGNd7Q/ms.jpg",
       "lat": 40.108116,
@@ -8473,7 +8714,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Farren's Pub & Eatery",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/PYe6nxilh0eH4fBsmx_VvQ/ms.jpg",
       "lat": 40.1187461625883,
@@ -8509,7 +8751,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Uncle Martin's Sports Bar",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/9l3LXKURT7cZdKPbdR7E4A/ms.jpg",
       "lat": 40.123642,
@@ -8545,7 +8788,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "World Harvest Foods",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/asdaWV6r76ONOe6yKnKDGg/ms.jpg",
       "lat": 40.1163075864315,
@@ -8581,7 +8825,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "lat": 40.18544,
       "lon": -88.36834,
@@ -8617,7 +8862,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mashawi Grill",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/mQll9M3g247lpViCcbPRKg/ms.jpg",
       "lat": 40.110038,
@@ -8653,7 +8899,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taco Bell",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/cBKW-YMdIlqCSvYFXMO1tg/ms.jpg",
       "lat": 40.096139,
@@ -8691,7 +8938,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "A Plus VIP Lounge",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/7tBDBBW368U2AF9Gaep7sQ/ms.jpg",
       "lat": 40.112709,
@@ -8728,7 +8976,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Fat City Saloon",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/jfAxkT0jnH2VUP0epffb0Q/ms.jpg",
       "lat": 40.11097,
@@ -8762,7 +9011,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Fiesta Ranchero",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/y3jz6YHJ2xRR6oCwp9A_ww/ms.jpg",
       "lat": 40.0940514,
@@ -8798,7 +9048,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Prospect Barbeque & Sweets",
       "lat": 40.130535,
       "lon": -88.257469,
@@ -8830,7 +9081,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Beckman Cafe",
       "lat": 40.115813,
       "lon": -88.227516,
@@ -8848,7 +9100,8 @@
       ],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Rainbow Garden",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/37WImTmWyFnI7nY3Q7YZnw/ms.jpg",
       "lat": 40.1167907714844,
@@ -8884,7 +9137,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Casey's Carry Out Pizza",
       "lat": 40.1148766279221,
       "lon": -88.1818243861198,
@@ -8920,7 +9174,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Jurassic Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/sbX2L9HBc-G_ywzhgSgSGw/ms.jpg",
       "lat": 40.1104164,
@@ -8956,7 +9211,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Krannert Center For The Performing Arts",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/vOk5jMyKeHEjmi6t-bTLsw/ms.jpg",
       "lat": 40.1089249,
@@ -8994,7 +9250,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Firehouse Subs",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/B3pp5cV_dumvtZPNSexUCA/ms.jpg",
       "lat": 40.136805,
@@ -9032,7 +9289,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Chipotle Mexican Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/9YtDckDuFtBpax5DIuTHGQ/ms.jpg",
       "lat": 40.1103747782313,
@@ -9068,7 +9326,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Olive Garden Italian Restaurant",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/HYKcdo23BmQxy4nVD6A8fg/ms.jpg",
       "lat": 40.135851981612,
@@ -9103,7 +9362,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Dos Reales",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/6Zp_lRaPOsk4-lE3Hsg-CQ/ms.jpg",
       "lat": 40.129955,
@@ -9138,7 +9398,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Koto Ramen",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/SfBBNpqBvQubIOfncFkMFw/ms.jpg",
       "lat": 40.110828,
@@ -9174,7 +9435,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Biaggi's Ristorante Italiano",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/Yd_i64WfWf1_wrmdUwwo9g/ms.jpg",
       "lat": 40.086845,
@@ -9209,7 +9471,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "B Won",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/2LQ_n4x7ZNr8Wu0xYRpNCg/ms.jpg",
       "lat": 40.0909814983606,
@@ -9244,7 +9507,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Chopstix",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/Nk34gLED384T2UDxUQf6zA/ms.jpg",
       "lat": 40.110523,
@@ -9279,7 +9543,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mia Za's Cafe",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/USpt4zZVA5kXiedi0DcyaQ/ms.jpg",
       "lat": 40.110085,
@@ -9316,7 +9581,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Po'-Boys",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/EGckGVYIcfd74cGaOleYdA/ms.jpg",
       "lat": 40.131428,
@@ -9349,7 +9615,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "La Bamba",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/p5pY26u9PtlwC0L3FMVRLg/ms.jpg",
       "lat": 40.119049,
@@ -9384,7 +9651,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Empire Chinese Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/hez5Z0LMHKkfqwmcpevEmQ/ms.jpg",
       "lat": 40.110554,
@@ -9419,7 +9687,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Kam's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/hb_USbI7dCEmwowgjEcaWw/ms.jpg",
       "lat": 40.1080423593521,
@@ -9456,7 +9725,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Milo's Restaurant",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/Ab-8XbX1nn1Zvlq5-rXKgA/ms.jpg",
       "lat": 40.081589743495,
@@ -9492,7 +9762,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Big Grove Tavern",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/zvSUVpwDo_-98aAnbODzjg/ms.jpg",
       "lat": 40.1182854119209,
@@ -9530,7 +9801,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "JT Walker's Restaurant and Brewery",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/eXuFIwvwabeA40MvSvbVIg/ms.jpg",
       "lat": 40.19495,
@@ -9567,7 +9839,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Smoky's House BBQ",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/O6XNTayqryqRcqg7FfIuEA/ms.jpg",
       "lat": 40.0713235718975,
@@ -9603,7 +9876,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Xinh Xinh Cafe",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/YoFy5Bug2qA0ZEJvPzYz6A/ms.jpg",
       "lat": 40.113390389546,
@@ -9638,7 +9912,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Spoon House Korean Kitchen",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/2yLdos0u67B0DjL8QppPLw/ms.jpg",
       "lat": 40.11063,
@@ -9673,7 +9948,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Woori Jib Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/vih7VE7dlWMONboBk6KAcQ/ms.jpg",
       "lat": 40.109592,
@@ -9708,7 +9984,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Alexander's Steakhouse",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/7nbJIHCo6Jkv8l0ccI2Oqw/ms.jpg",
       "lat": 40.1368217,
@@ -9743,7 +10020,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pickens Chicken",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/xYTEtlChg1FJmajO-6St2Q/ms.jpg",
       "lat": 40.12454,
@@ -9779,7 +10057,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Niro's Gyros",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/pycrzARupAZKv_qqG0LDnw/ms.jpg",
       "lat": 40.116127,
@@ -9815,7 +10094,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Applebee's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/EcjYJCsd-jHZ7REGgYbVmQ/ms.jpg",
       "lat": 40.142052,
@@ -9853,7 +10133,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "J Gumbo's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/nazWPTqHs10terxUEJvlZA/ms.jpg",
       "lat": 40.1065109,
@@ -9889,7 +10170,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Joe's Brewery",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/hMC6xKQVVurybVdM0SXL_Q/ms.jpg",
       "lat": 40.109715,
@@ -9926,7 +10208,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Manolo's Pizza & Empanadas",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/-yhLbEFz8T_ms3w3TxZ_4Q/ms.jpg",
       "lat": 40.106932242854,
@@ -9962,7 +10245,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Seaboat",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/pdr1qC5vWmjFUfvghPQwpA/ms.jpg",
       "lat": 40.097748,
@@ -9999,7 +10283,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Urbana Garden Family Restaurant",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/rh7H10S-dzNcls8mA4zelw/ms.jpg",
       "lat": 40.132827,
@@ -10037,7 +10322,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Buffalo Wild Wings",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/zbLdRpXubAXznBVq4yAYww/ms.jpg",
       "lat": 40.0701899852104,
@@ -10075,7 +10361,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Guido's Bar & Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/OyGGNhNsE5D9KszVviUR4A/ms.jpg",
       "lat": 40.117862701416,
@@ -10112,7 +10399,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "El Toro Mexican Restaurant",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/-mkFB2XmCJ-hNQtNnaI62g/ms.jpg",
       "lat": 40.1071014,
@@ -10146,7 +10434,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Original Pancake House",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/LmVIVYJ4BJsVNzqPp-Bhbw/ms.jpg",
       "lat": 40.112887,
@@ -10181,7 +10470,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Los Amigos",
       "lat": 40.1104164,
       "lon": -88.2331238,
@@ -10215,7 +10505,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Le Peep Restaurant",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/EptCSIpRULZ_7N8T5kiUWQ/ms.jpg",
       "lat": 40.08691,
@@ -10250,7 +10541,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Firehaus",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/LCBugmI992d7746jgQxPTA/ms.jpg",
       "lat": 40.109726,
@@ -10287,7 +10579,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Golden Wok",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/dxOXWpH3xRLBryCqu-zIhA/ms.jpg",
       "lat": 40.116055,
@@ -10324,7 +10617,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Blind Pig Brewery",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/YtWBJQnKSw0LcoO10XH70A/ms.jpg",
       "lat": 40.117186728516,
@@ -10360,7 +10654,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Windy City Express",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/ZIvHGxaeW_-skxkD1Qtqaw/ms.jpg",
       "lat": 40.116264,
@@ -10397,7 +10692,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taco Loco",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/-j57hvMMw8Mzf_kUvlp_Nw/ms.jpg",
       "lat": 40.1420174,
@@ -10434,7 +10730,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Perkins Family Restaurant",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/_N5NhnLQjtzIjnA4_NIqqQ/ms.jpg",
       "lat": 40.1167984,
@@ -10470,7 +10767,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Escobar's",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/KiQAuNSkYZY5tDusCuDjlw/ms.jpg",
       "lat": 40.12125,
@@ -10508,7 +10806,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Penn Station",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/C6cwgwrGej_gVCsZQPCaDA/ms.jpg",
       "lat": 40.1427536,
@@ -10543,7 +10842,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Papa Del's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/ewNCDMzZ-zAYKld8dIeNbw/ms.jpg",
       "lat": 40.110527,
@@ -10578,7 +10878,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Za's Italian Cafe",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/dvPjNnepbJO5DznyCNWZPQ/ms.jpg",
       "lat": 40.139828,
@@ -10613,7 +10914,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Antonio's Pizza",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/EX_fTLdOfDiQsu8_63BlLw/ms.jpg",
       "lat": 40.110081,
@@ -10648,7 +10950,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Jupiter's Pizzeria & Billiards",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/JMwCzOYUXtHDc0uArjzJEw/ms.jpg",
       "lat": 40.117741911204,
@@ -10686,7 +10989,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Station 6 Pizza",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/BLQw_fYQQ2FnIOuFrJGQ1Q/ms.jpg",
       "lat": 40.083276,
@@ -10722,7 +11026,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Green Street Cafe",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/X58kr1PkTVk0TB8miJ4leA/ms.jpg",
       "lat": 40.109909,
@@ -10758,7 +11063,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Mike N Molly's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/W8dxF93ZIdSs3EzS0vqDLA/ms.jpg",
       "lat": 40.116581159918,
@@ -10794,7 +11100,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Burger King",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/CRe8rtDeXwQW3vu3yHq0cQ/ms.jpg",
       "lat": 40.112431,
@@ -10830,7 +11137,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Domino's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/5L1h-luQSoknGcV28UHYRQ/ms.jpg",
       "lat": 40.0982180982828,
@@ -10868,7 +11176,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Denny's",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/dICRPAaoQDDmNS3_Vm5ALw/ms.jpg",
       "lat": 40.1431007,
@@ -10905,7 +11214,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Mirsung Indian Fast food and Groceries",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/iqBJyjEF4udqzanEeQ2bOA/ms.jpg",
       "lat": 40.1101586222649,
@@ -10940,7 +11250,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Chinese Express",
       "lat": 40.109989,
       "lon": -88.240509,
@@ -10973,7 +11284,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/itm90lVuG3GAXzwgg-b4Ag/ms.jpg",
       "lat": 40.0974349975586,
@@ -11010,7 +11322,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Asian Taste Restaurant",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/kMToQvgdpH_gc3uEvtGdqA/ms.jpg",
       "lat": 40.1092811348301,
@@ -11045,7 +11358,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Bar-B-Q Heaven",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/lwsw4L5BxyrBnscQsjaUEQ/ms.jpg",
       "lat": 40.11511,
@@ -11080,7 +11394,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Old Time Meat & Deli Shoppe",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/qRT2S0lAclFBDwxLpzrDRg/ms.jpg",
       "lat": 40.0908426940441,
@@ -11116,7 +11431,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Wingin Out",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/Ce0PPzwl1HmYj1urhCfTSw/ms.jpg",
       "lat": 40.110039,
@@ -11153,7 +11469,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Doughbelly Subs",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/urAe6HF063dS0-0IbJ45OA/ms.jpg",
       "lat": 40.0819969,
@@ -11189,7 +11506,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Taco Bell",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/d8KsG0tiDYDGPJCiwX3brA/ms.jpg",
       "lat": 40.11634,
@@ -11227,7 +11545,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Subway",
       "lat": 40.195744,
       "lon": -88.397751,
@@ -11243,7 +11562,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Kato's Cajun",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/ZAsLNFwciCqG20tiUvkD7w/ms.jpg",
       "lat": 40.11511,
@@ -11277,7 +11597,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Papa Murphy's Take N Bake Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/GE_SRXejvPpHEjnYgz1Q5Q/ms.jpg",
       "lat": 40.112701356411,
@@ -11313,7 +11634,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Good Fella Korean Bistro",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/L-V8h-J53gFOqY7rgYWz_Q/ms.jpg",
       "lat": 40.10519,
@@ -11348,7 +11670,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Panda Express",
       "lat": 40.1409492,
       "lon": -88.2445221,
@@ -11382,7 +11705,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "O'Charley's",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/hEpZdAJyPzy__DnlKXHOVQ/ms.jpg",
       "lat": 40.143101,
@@ -11418,7 +11742,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "interlude",
       "lat": 40.1089249,
       "lon": -88.2237473,
@@ -11453,7 +11778,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Number One Wok",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/z55loBGuGJI1LOFcGa4iAQ/ms.jpg",
       "lat": 40.110275298357,
@@ -11487,7 +11813,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Star Karaoke",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/qENdACGInO6eFl9t86fSEg/ms.jpg",
       "lat": 40.073324983297,
@@ -11524,7 +11851,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Red Lobster",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/1nFGIicgxEgs1dfTMRKEMg/ms.jpg",
       "lat": 40.1384315,
@@ -11561,7 +11889,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "McDonald's",
       "lat": 40.13752,
       "lon": -88.243103,
@@ -11596,7 +11925,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Dairy Queen",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/DNUwH6stHCAlB6d5NPeYZA/ms.jpg",
       "lat": 40.116138,
@@ -11633,7 +11963,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Five Guys Burgers and Fries",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/7oS2A4N1F47lbnteW9317Q/ms.jpg",
       "lat": 40.1376647949219,
@@ -11670,7 +12001,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "El Toro",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/DOizBjNGx3WhDAh5Xyom3Q/ms.jpg",
       "lat": 40.1111488,
@@ -11686,7 +12018,8 @@
       "open": [],
       "close": [],
       "mealType": []
-   },{
+   },
+   {
       "name": "Maize Mexican Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/h_PHwl7QE8PbhFP7N4OCAA/ms.jpg",
       "lat": 40.110374,
@@ -11720,7 +12053,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "LongHorn Steakhouse",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/yhDnTBCK2N856LhSsKYtvQ/ms.jpg",
       "lat": 40.141258,
@@ -11757,7 +12091,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Fat Sandwich Company",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/9fZgP2uJ0H2dtuE4bOayIg/ms.jpg",
       "lat": 40.109329,
@@ -11792,7 +12127,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Oishi",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/VaQ1mcAFSyrUlVtf2L8hKQ/ms.jpg",
       "lat": 40.145134,
@@ -11827,7 +12163,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sam's Cafe",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/MbvdJzYuD_knd2A5HtQBvA/ms.jpg",
       "lat": 40.1169815,
@@ -11864,7 +12201,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Masijta Grill",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/APOg7A4MH-QkljLyWlJ77Q/ms.jpg",
       "lat": 40.1137608,
@@ -11900,7 +12238,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Kamakura Japanese Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/96O2_h1tlzO1hY0xhZi4zA/ms.jpg",
       "lat": 40.107869,
@@ -11934,7 +12273,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Destihl Restaurant & Brew Works",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/5sH7PBuE089zp4xeBdSYpA/ms.jpg",
       "lat": 40.1187706,
@@ -11972,7 +12312,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Sushi Rock",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/QdR_mHapzvcUXcFyCFGCqw/ms.jpg",
       "lat": 40.110085,
@@ -12007,7 +12348,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Basil Thai Urbana",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/z8SD3b1ysgoIoU68tqUF3g/ms.jpg",
       "lat": 40.1065483,
@@ -12043,7 +12385,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Bacaro",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/z1tyDTWQHK0L2p2oIiFQGA/ms.jpg",
       "lat": 40.116906980618,
@@ -12081,7 +12424,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Panchero's Mexican Grill",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/fGxQnqaoEXp3q4DCYB5WQA/ms.jpg",
       "lat": 40.1168289,
@@ -12117,7 +12461,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "A-Ri-Rang",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/II5YjLxaTAUExRw9zwxiRA/ms.jpg",
       "lat": 40.1111735242579,
@@ -12152,7 +12497,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Sushi Kame",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/W1o3o9rij3XOB6fmT5hQQQ/ms.jpg",
       "lat": 40.118534,
@@ -12189,7 +12535,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Casablanca Kabab House",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/-g7ijCCcoQy3FiGkwKdCIw/ms.jpg",
       "lat": 40.1101837,
@@ -12225,7 +12572,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Atlanta Bread Company",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/Qo7fzprm5T_dtcLpkSXlGA/ms.jpg",
       "lat": 40.093098,
@@ -12262,7 +12610,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "South China Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/nK-XzJUY83R093jcLMzDcQ/ms.jpg",
       "lat": 40.1121407,
@@ -12296,7 +12645,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Jerusalem Middle Eastern Cuisine",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/cDK2SAL_eyd4wl9YOBk9Ow/ms.jpg",
       "lat": 40.111301,
@@ -12331,7 +12681,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Clybourne",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/iTs7d7dvpGlelV-3_wON-g/ms.jpg",
       "lat": 40.109726,
@@ -12366,7 +12717,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Clark Bar",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/1ioQOojWHJUdY8JLT3y97w/ms.jpg",
       "lat": 40.1150512695313,
@@ -12401,7 +12753,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Applebee's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/BNZbLTXHpAvu258kOuqpLw/ms.jpg",
       "lat": 40.0695988402737,
@@ -12439,7 +12792,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pho Cafe",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/mVaM_ib4sMCvez1FdqGtug/ms.jpg",
       "lat": 40.110039,
@@ -12475,7 +12829,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Taffies Restaurant",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/OgLpqPFKYd_FQAjTxMy9jQ/ms.jpg",
       "lat": 40.1145467413495,
@@ -12510,7 +12865,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Cactus Grill",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/3JZz7XK2aavurG5aclzOww/ms.jpg",
       "lat": 40.099609,
@@ -12547,7 +12903,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Steak 'n Shake",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/_DDperv1z_wNLfR2r7P59A/ms.jpg",
       "lat": 40.0950526,
@@ -12584,7 +12941,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "301 Mongolia",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/SZbzJ6UC-bL4nuJ8XJE5AA/ms.jpg",
       "lat": 40.1187706,
@@ -12620,7 +12978,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Lil Porgy's Bar-B-Que",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/QM0022NuSnqeB8cmss0URg/ms.jpg",
       "lat": 40.1162152787916,
@@ -12656,7 +13015,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Orange & Brew",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/Jmw1qexRwRAKLr6l36VkNQ/ms.jpg",
       "lat": 40.1031471749153,
@@ -12692,7 +13052,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Red Herring Vegetarian Restaurant",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/GariXidhm6Kb_pZA7863Pg/ms.jpg",
       "lat": 40.106705,
@@ -12730,7 +13091,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Timpone's",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/l7zZJ9qSa5f_2LJw0CBqOA/ms.jpg",
       "lat": 40.10638,
@@ -12766,7 +13128,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Noodles & Company",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/eqga3P2-HhJTxLk8z2lEgQ/ms.jpg",
       "lat": 40.1105194,
@@ -12803,7 +13166,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Dragon Fire Pizza",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/wZ-4RgZw13BZC43A5bYYaw/ms.jpg",
       "lat": 40.1124767140366,
@@ -12839,7 +13203,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "BoBo's BBQ",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/FVEOj5o7SEHrqkyTWcnBZg/ms.jpg",
       "lat": 40.1125030517578,
@@ -12875,7 +13240,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Auntie Anne's",
       "lat": 40.1409492,
       "lon": -88.2445221,
@@ -12909,7 +13275,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Aroma Cafe",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/OajxgP-XlSJqMSp9HhYl9A/ms.jpg",
       "lat": 40.1169385761023,
@@ -12946,7 +13313,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Li'l Porgy's Bar-B-Que",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/7nEhx60g3mHx6_8_0deNQA/ms.jpg",
       "lat": 40.112421,
@@ -12981,7 +13349,8 @@
          "breakfast",
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Meatheads",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/ENXIfuMY4_Pxzt8gQ_cyUQ/ms.jpg",
       "lat": 40.1015205,
@@ -13017,7 +13386,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Merry-Ann's Diner",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/1h4c52qQU5yra0Vbm7w3FQ/ms.jpg",
       "lat": 40.0986519,
@@ -13054,7 +13424,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Kofusion",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/yyaoLmlQSLsNL0yl1Qek9Q/ms.jpg",
       "lat": 40.1185666238325,
@@ -13091,7 +13462,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Siam Terrace",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/q2woXyHzlMGngnaYZDMrHQ/ms.jpg",
       "lat": 40.112708,
@@ -13127,7 +13499,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Bevier Cafe",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/vKow45Ziex_LN98ZSnb4eQ/ms.jpg",
       "lat": 40.1053123,
@@ -13164,7 +13537,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Texas Roadhouse",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/Cay9WUwUldmHdN0R-B2L0A/ms.jpg",
       "lat": 40.117932,
@@ -13201,7 +13575,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "The Dancing Dog Eatery & Juicery",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/vGSe6yMu3viKmRoLl7OCRA/ms.jpg",
       "lat": 40.112759,
@@ -13239,7 +13614,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Bombay Indian Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/cEbG75RcMpIAVNISd16qOQ/ms.jpg",
       "lat": 40.110474,
@@ -13274,7 +13650,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Esquire Lounge Inc",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/4NxTw61FMo61TmDDDK92sA/ms.jpg",
       "lat": 40.116596,
@@ -13311,7 +13688,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Layalina Mediterranean Grill",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/gg0i6t5l3VeYW4-1STQlzw/ms.jpg",
       "lat": 40.112801,
@@ -13346,7 +13724,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "The Great Impasta",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/OrK5G6tXkltAfDUNd5X64w/ms.jpg",
       "lat": 40.1112402230501,
@@ -13382,7 +13761,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "McAlister's Deli",
       "image": "http://s3-media1.fl.yelpcdn.com/bphoto/EBlK2szrfnla21VpGGuXAw/ms.jpg",
       "lat": 40.1414260864258,
@@ -13419,7 +13799,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Crane Alley",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/u_M50Hx2KJV9dDnbB7JXOg/ms.jpg",
       "lat": 40.112202,
@@ -13456,7 +13837,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Pizza M",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/0zpb4Chxm6oPRg6mywK6PA/ms.jpg",
       "lat": 40.112709,
@@ -13492,7 +13874,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Monical's Pizza",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/hr0KW3_mRjw-BeYaNyoyQw/ms.jpg",
       "lat": 40.097774,
@@ -13529,7 +13912,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "DP Dough",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/KtkMJ14mbR9jkSLIMq5muQ/ms.jpg",
       "lat": 40.109909,
@@ -13564,7 +13948,8 @@
       "mealType": [
          "lunch"
       ]
-   },{
+   },
+   {
       "name": "Radio Maria",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/xqACHfuuud6wMJN9a26Jrw/ms.jpg",
       "lat": 40.11713,
@@ -13602,7 +13987,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "Bangkok Thai and Pho 911",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/YpeUam2jTYqxRwK42tUy5w/ms.jpg",
       "lat": 40.110554,
@@ -13637,7 +14023,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Outback Steakhouse",
       "image": "http://s3-media4.fl.yelpcdn.com/bphoto/uGKx3SUGBafpIb9tcO7bAQ/ms.jpg",
       "lat": 40.144871,
@@ -13672,7 +14059,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Seven Saints",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/FHFnJz6tgw9LtC4BftfWqA/ms.jpg",
       "lat": 40.1165558776,
@@ -13710,7 +14098,8 @@
          "dinner",
          "latenight"
       ]
-   },{
+   },
+   {
       "name": "My Thai",
       "image": "http://s3-media3.fl.yelpcdn.com/bphoto/xX_0nG2V-Af5LZPRHQZIpQ/ms.jpg",
       "lat": 40.1130999636379,
@@ -13747,7 +14136,8 @@
          "lunch",
          "dinner"
       ]
-   },{
+   },
+   {
       "name": "Wedge Tequila Bar & Grill",
       "image": "http://s3-media2.fl.yelpcdn.com/bphoto/gHUN7FqUlhx51KXkIcJ-2g/ms.jpg",
       "lat": 40.119808,
