@@ -27,10 +27,10 @@ Now, run *category.js* to get category data output as *category.json*
 
 A list of the most popular categories sorted descending should appear in *category.json*
 
-Finally, run price.js (UNDER CONSTRUCTION).
+Finally, run price.js to web scrape price data from Yelp pages.
 
 > node price.js
 
 This will read from *output.json* and create a file *output_full.json* with available price data from Yelp attached to each restaurant data point.
 
-*output_full.json* is the finalized data used for Grubbudge's database.
+*output_full.json* is the finalized data used for Grubbudge's database. This will also need to be fixed in the same way as *output.json*
