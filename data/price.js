@@ -42,8 +42,8 @@ function appendJSONToFile(data, fileName) {
 
 /* ----- Category Data Retrieval Functions ----- */
 
+// Web scrape on the given Yelp URL for the price level and add data to output
 function scrapeRating(data, link) {
-	//print("Request for: " + link);
 	request(link, function(error, response, html) {
 		if (error) throw error;
 		$ = cheerio.load(html);
@@ -73,7 +73,7 @@ function getRatings() {
 	var data = getJSONFromFile("output.json");
 
 	print("#   Enumerating URLs.");
-	// Get URLs to scrape from
+	// Get URLs from data to scrape price level from
 	for (var i = 0; i < data.length; i++) {
 		var pt = data[i];
 		var url = pt.url;
