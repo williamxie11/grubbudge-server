@@ -1,3 +1,8 @@
+/* Gets price level data by scraping each Yelp page corresponding to the restaurant data point
+ * NOTE: Requires a correctly formatted output.json from restaurant.js. Reference the comment at the top of
+ * restaurant.js for instructions on how to manually fix the JSON format before continuing with this script.
+ */
+
 // Node Dependencies
 var express = require('express');
 var app = express();
@@ -8,15 +13,12 @@ function print(me) {
 	console.log(me);
 }
 
-/* ----- File Writing Functions ----- */
-
-function clearOutputFiles() {
-	clearFile("output.json");
-}
+/* ----- File Read/Write Functions ----- */
 
 function clearFile(fileName) {
-	fs.truncate(fileName, 0, function() { 
-		print(fileName + " cleared");
+	print("#   " + fileName + " cleared");
+	fs.truncate(fileName, 0, function(err) { 
+		if (err) throw err;
 	})
 }
 
@@ -32,10 +34,34 @@ function appendStrToFile(str, fileName) {
 	})
 }
 
+function getJSONFromFile(fileName) {
+	var fileData = fs.readFileSync(fileName, "utf8");
+	var fileJSON = JSON.parse(fileData);
+	return fileJSON;
+}
+
+function appendJSONToFile(data, fileName) {
+	var s = JSON.stringify(data, null, 3);
+	s += ",";
+	fs.appendFile(fileName, s, function(err) {
+		if (err) throw err;
+	});
+}
+
 /* ----- Category Data Retrieval Functions ----- */
+
+function scrapeRating() {
+
+}
+
+function getRatings() {
+	clearFile("output_full.json");
+	var data = getJSONFromFile("output.json");
+}
 
 function main() {
 	print("#   Script started.");
+	getRatings();
 }
 
 main();
