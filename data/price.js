@@ -47,7 +47,7 @@ function scrapeRating(data, link) {
 	request(link, function(error, response, html) {
 		if (error) throw error;
 		$ = cheerio.load(html);
-		var priceLevel = $(".business-attribute").html();
+		var priceLevel = $(".business-attribute.price-range").html();
 		if (priceLevel == "$") {
 			data["price"] = 1;
 		}
@@ -61,7 +61,7 @@ function scrapeRating(data, link) {
 			data["price"] = 4;
 		}
 		else {
-			data["price"] = 0;
+			data["price"] = 1; // sometimes a price level of "$" is not detected, so we force set it to price level of 1 if not found
 		}
 		appendJSONToFile(data, "output_full.json");
 	});
