@@ -1,4 +1,4 @@
-# Data Retrieval Scripts for Grubbudge
+# Data Retrieval Scripts for GrubBudge
 William Xie
 
 ## Instructions
@@ -21,7 +21,7 @@ To fix this:
 
 This should correctly fix and format the output. If not, there is a correct version located in this project directory.
 
-Now, run *category.js* to get category data output as *category.json*
+Now, run *category.js*.
 
 > node category.js
 
@@ -33,4 +33,4 @@ Finally, run price.js to web scrape price data from Yelp pages.
 
 This will read from *output.json* and create a file *output_full.json* with available price data from Yelp attached to each restaurant data point.
 
-*output_full.json* is the finalized data used for Grubbudge's database. This will also need to be fixed in the same way as *output.json*
+*output_full.json* is the finalized data used for GrubBudge's database. This will also need to be fixed in the same way as *output.json*
