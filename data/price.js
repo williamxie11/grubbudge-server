@@ -26,18 +26,6 @@ function clearFile(fileName) {
 	})
 }
 
-function writeStrToFile(str, fileName) {
-	fs.writeFile(fileName, str, function(err) {
-		if (err) throw err;
-	})
-}
-
-function appendStrToFile(str, fileName) {
-	fs.appendFile(fileName, str, function(err) {
-		if (err) throw err;
-	})
-}
-
 function getJSONFromFile(fileName) {
 	var fileData = fs.readFileSync(fileName, "utf8");
 	var fileJSON = JSON.parse(fileData);
