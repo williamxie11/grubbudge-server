@@ -1,3 +1,8 @@
+/* Counts the frequency of categories in the restaurant data and prints it to categories.json
+ * NOTE: Requires a correctly formatted output.json. Check the comment at the top of restaurant.js
+ * on how to fix current formatting issues before proceeding with this script.
+ */
+
 // Node Dependencies
 var express = require('express');
 var app = express();
@@ -12,13 +17,10 @@ function print(me) {
 
 /* ----- File Writing Functions ----- */
 
-function clearOutputFiles() {
-	clearFile("output.json");
-}
-
 function clearFile(fileName) {
-	fs.truncate(fileName, 0, function() { 
-		print(fileName + " cleared");
+	print("#   " + fileName + " cleared");
+	fs.truncate(fileName, 0, function(err) { 
+		if (err) throw err;
 	})
 }
 
@@ -33,12 +35,6 @@ function writeJSONToFile(data, fileName) {
 	fs.writeFile(fileName, s, function(err) {
 		if (err) throw err;
 	});
-}
-
-function appendStrToFile(str, fileName) {
-	fs.appendFile(fileName, str, function(err) {
-		if (err) throw err;
-	})
 }
 
 /* ----- Sort and JSON Building Functions ----- */
@@ -76,9 +72,10 @@ function rebuildJSONFromArray(arr) {
 /* ----- Category Data Retrieval Functions ----- */
 
 function getCategories() {
+	clearFile("categories.json");
 	var data = getJSONFromFile("output.json");
 	var num = data.length;
-	print("#   Getting categories for " + num + " data points");
+	print("#   Getting category count data for " + num + " data points");
 	for (var i = 0; i < num; i++) {
 		var pt = data[i];
 		var categories = pt["categories"];
