@@ -70,7 +70,6 @@ function rebuildJSONFromArray(arr) {
 		var frequency = arr[i][1];
 		sortedCatList[category] = frequency;
 	}
-	print(sortedCatList);
 	return sortedCatList;
 }
 
