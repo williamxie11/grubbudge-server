@@ -1,7 +1,7 @@
 # Data Retrieval Scripts for GrubBudge
 William Xie
 
-## Instructions
+## Data Retrieval Instructions
 
 Install required node dependencies and packages.
 
@@ -36,3 +36,9 @@ This will read from *output.json* and create a file *output_full.json* with avai
 *output_full.json* is the finalized data used for GrubBudge's database. 
 
 This will also need to be fixed in the same way as *output.json*
+
+## Upload to MongoLab Instructions
+
+Use the command *mongoimport* to upload the formatted JSON to MongoLab.
+
+> mongoimport -h [connection_url]:[port] -d [Database] -c [Collection] -u [User] -p [Password] --file output_full.json --jsonArray
