@@ -612,7 +612,7 @@ restaurantsRoute.get(function (req, res) {
 	// Build query based on request
     if(req.query.where) {
         var where = JSON.parse(req.query.where);
-        query.where(where);
+        query.where(where).lte(where.price);
     }
     if(req.query.sort) {
         var sort = JSON.parse(req.query.sort);
