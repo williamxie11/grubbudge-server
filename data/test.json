@@ -1,0 +1,92 @@
+[
+   {
+      "name": "Li'l Porgy's Bar-B-Que",
+      "image": "http://s3-media1.fl.yelpcdn.com/bphoto/7nEhx60g3mHx6_8_0deNQA/ms.jpg",
+      "lat": 40.112421,
+      "lon": -88.280002,
+      "address": "1917 W Springfield Ave, Champaign, IL 61821",
+      "rating": 4,
+      "rating-img": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "url": "http://www.yelp.com/biz/lil-porgys-bar-b-que-champaign",
+      "categories": [
+         "Barbeque",
+         "bbq"
+      ],
+      "price": 1,
+      "open": ["1100", "1100", "1100", "1100", "1100", "1100", "1100"],
+      "close": ["2100", "2100", "2100", "2100", "2200", "2200", "2100"],
+      "mealType": ["lunch", "dinner"]
+   },
+   {
+      "name": "Mia Za's Cafe",
+      "image": "http://s3-media1.fl.yelpcdn.com/bphoto/USpt4zZVA5kXiedi0DcyaQ/ms.jpg",
+      "lat": 40.110085,
+      "lon": -88.229225,
+      "address": "629 E Green St, Champaign, IL 61820",
+      "rating": 3.5,
+      "rating-img": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "url": "http://www.yelp.com/biz/mia-zas-cafe-champaign",
+      "categories": [
+         "Pizza",
+         "pizza"
+      ],
+      "price": 1,
+      "open": ["1100", "1100", "1100", "1100", "1100", "1100", "1100"],
+      "close": ["2100", "2100", "2100", "2100", "2200", "2200", "2100"],
+      "mealType": ["lunch", "dinner"]
+   },
+   {
+      "name": "Fat Sandwich Company",
+      "image": "http://s3-media1.fl.yelpcdn.com/bphoto/9fZgP2uJ0H2dtuE4bOayIg/ms.jpg",
+      "lat": 40.109329,
+      "lon": -88.231667,
+      "address": "502 E John St, Champaign, IL 61820",
+      "rating": 3,
+      "rating-img": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "url": "http://www.yelp.com/biz/fat-sandwich-company-champaign",
+      "categories": [
+         "Sandwiches",
+         "sandwiches"
+      ],
+      "price": 1,
+      "open": ["1200", "1200", "1200", "1200", "1200", "1200", "1200"],
+      "close": ["0300", "0300", "0300", "0300", "0300", "0300", "0300"],
+      "mealType": ["lunch", "dinner", "latenight"]
+   },
+   {
+      "name": "Chipotle Mexican Grill",
+      "image": "http://s3-media1.fl.yelpcdn.com/bphoto/Ht9J8n1s3vPPtKQMCSBH8A/ms.jpg",
+      "lat": 40.137914121151,
+      "lon": -88.259080722928,
+      "address": "903 W Anthony Dr, Champaign, IL 61822",
+      "rating": 3.5,
+      "rating-img": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "url": "http://www.yelp.com/biz/chipotle-mexican-grill-champaign-3",
+      "categories": [
+         "Mexican",
+         "mexican"
+      ],
+      "price": 2,
+      "open": ["1100", "1100", "1100", "1100", "1100", "1100", "1100"],
+      "close": ["2200", "2200", "2200", "2200", "2200", "2200", "2200"],
+      "mealType": ["lunch", "dinner"]
+   },
+   {
+      "name": "Sushi Ichiban",
+      "image": "http://s3-media3.fl.yelpcdn.com/bphoto/buJcGo7hWG_1unKZ6HiN1Q/ms.jpg",
+      "lat": 40.1108208,
+      "lon": -88.2291489,
+      "address": "619 S Wright St, Champaign, IL 61820",
+      "rating": 3,
+      "rating-img": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "url": "http://www.yelp.com/biz/sushi-ichiban-champaign",
+      "categories": [
+         "Sushi Bars",
+         "sushi"
+      ],
+      "price": 2,
+      "open": ["1100", "1100", "1100", "1100", "1100", "1100", "1100"],
+      "close": ["2130", "2130", "2130", "2130", "2130", "2130", "2130"],
+      "mealType": ["lunch", "dinner"]
+   }
+]

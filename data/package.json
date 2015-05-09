@@ -1,24 +1,18 @@
 {
   "name": "GrubBudge_Server_DataUpload",
   "version": "1.0.0",
-  "homepage": "https://github.com/Sukeer/grubbudge_server",
-  "description": "Uploads Yelp scrubbed U-C restaurant data to the GrubBudge MongoDB",
+  "homepage": "https://github.com/Sukeer/grubbudge_server/data",
+  "description": "Uploads Yelp and Google Places scrubbed U-C restaurant data to the GrubBudge MongoDB",
   "authors": [
     "Asad Butt, Sukeerthi Khadri, Jacob Waterman, and William Xie"
   ],
   "dependencies": {
     "express": "latest",
-    "grunt": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-copy": "latest",
-    "grunt-express-server": "latest",
     "matchdep": "latest",
     "yelp": "latest",
-    "sequence": "latest",
-    "node-promise": "latest"
+    "async": "latest",
+    "googleplaces": "latest",
+    "request": "latest",
+    "cheerio": "latest"
   }
 }
