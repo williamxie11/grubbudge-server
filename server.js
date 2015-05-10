@@ -54,6 +54,7 @@ app.use(bodyParser.json());
 app.use(expressSession({secret: 'grubbudge_secret'}));
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(express.static(__dirname + '/frontend'));
 
 // configure flash
 app.use(flash());
@@ -154,7 +155,7 @@ pageRouter.use(function (req, res, next) {
 var homePageRoute = pageRouter.route('/');
 
 homePageRoute.get(function (req, res) {
-	res.redirect('/frontend/home.html');
+	res.redirect('/home.html');
 });
 
 var requestCount = 0; // track # of requests
