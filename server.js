@@ -69,7 +69,9 @@ passport.deserializeUser(function (id, done) {
 });
 
 passport.use('login', new LocalStrategy({
-	passReqToCallback : true
+	passReqToCallback : true,
+	usernameField : 'email',
+	passwordField : 'password',
 }, function (req, email, password, done) {
 	// check in mongo if user with email exists or not
 	User.findOne({'email': email}, function (err, user) {
@@ -82,7 +84,7 @@ passport.use('login', new LocalStrategy({
 			return done(null, false, req.flash('message', 'User not found.'));
 		}
 		// User exists but wrong password, log the error
-		if(!isValidPassword(user, password)) {
+		if(!user.validPassword(user, password)) {
 			console.log('Invalid password');
 			return done(null, false, req.flash('message', 'Invalid password'));
 		}
@@ -97,7 +99,9 @@ var isValidPassword = function(user, password) {
 
 
 passport.use('signup', new LocalStrategy({
-	passReqToCallback : true
+	passReqToCallback : true,
+	usernameField : 'email',
+	passwordField : 'password',
 }, function (req, email, password, done) {
 	findOrCreateUser = function() {
 		// find a user in Mongo with provided username
@@ -117,7 +121,7 @@ passport.use('signup', new LocalStrategy({
 				var newUser = new User();
 				// set the user's local credentials
 				newUser.email = email;
-				newUser.password = createHash(password);
+				newUser.password = newUser.generateHash(password);
 				newUser.first = req.param('first');
 				newUser.last = req.param('last');
 			}
@@ -135,16 +139,12 @@ passport.use('signup', new LocalStrategy({
 	}
 }));
 
-var createHash = function (password) {
-	return bCrypt.hashSync(password, bCrypt.genSaltSync(10), null);
-}
 
 // Routes --------------------
 
 // All our routes will start with /api
 app.use('/api', router);
 app.use('/', pageRouter);
-
 
 pageRouter.use(function (req, res, next) {
 	console.log('Page request was made!');
@@ -154,7 +154,7 @@ pageRouter.use(function (req, res, next) {
 var homePageRoute = pageRouter.route('/');
 
 homePageRoute.get(function (req, res) {
-	res.json({message: 'This is homepage'});
+	res.redirect('/frontend/home.html');
 });
 
 var requestCount = 0; // track # of requests
