@@ -9,9 +9,13 @@ grubApp.config(['$routeProvider', function($routeProvider) {
     templateUrl: 'partials/mealplan.html',
     controller: 'MealPlanController'
   }).
-  when('/secondview', {
-    templateUrl: 'partials/secondview.html',
-    controller: 'SecondController'
+  when('/login', {
+    templateUrl: 'partials/login.html',
+    controller: 'LoginController'
+  }).
+  when('/register', {
+    templateUrl: 'partials/register.html',
+    controller: 'RegisterController'
   }).
   when('/home', {
     templateUrl: 'partials/home.html',
@@ -24,4 +28,4 @@ grubApp.config(['$routeProvider', function($routeProvider) {
   otherwise({
     redirectTo: '/home'
   });
-}]); 
+}]);
