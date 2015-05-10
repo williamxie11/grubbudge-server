@@ -5,24 +5,25 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var passport = require('passport');
-var flash = require('connect-flash');
-var expressSession = require('express-session');
-var bCrypt = require('bcrypt-nodejs');
-var LocalStrategy = require('passport-local').Strategy;
+var morgan = require('morgan');
+var cookieParser = require('cookie-parser');
+var session = require('express-session');
+var configDB = require('./config/database.js');
 
 // Mongoose models (local representations of MongoDB collections)
-var User = require('./models/user');
-var Restaurant = require('./models/restaurant');
-var MealPlan = require('./models/mealplan');
+var User = require('./app/models/user');
+var Restaurant = require('./app/models/restaurant');
+var MealPlan = require('./app/models/mealplan');
 
 // Connect to GrubBudge database hosted by MongoLab
-mongoose.connect('mongodb://testuser:cc0717@ds055709.mongolab.com:55709/grubbudge', function (err) {
+mongoose.connect(configDB.url, function (err) {
 	// Print error and exit
 	if (err) {
 		console.log(err);
 		return;
 	}
 });
+require('./config/passport')(passport);
 
 // Use environment defined port or 4000
 var port = process.env.PORT || 4000;
@@ -41,6 +42,7 @@ var router = express.Router(); // get instance of an express Router object
 var pageRouter = express.Router(); // Page router
 app.use(allowCrossDomain); 
 
+
 // Allow access to POST request body
 var bodyParser = require('body-parser');
 
@@ -51,93 +53,14 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // configure passport
-app.use(expressSession({secret: 'grubbudge_secret'}));
+app.use(morgan('dev'));
+app.use(cookieParser);
+app.use(session({secret: 'grubbudge_secret'}));
+app.use(express.static(__dirname + '/frontend'));
 app.use(passport.initialize());
 app.use(passport.session());
+require('./app/routes.js')(app, passport);
 
-// configure flash
-app.use(flash());
-
-passport.serializeUser(function (user, done) {
-	done(null, user._id);
-});
-
-passport.deserializeUser(function (id, done) {
-	User.findById(id, function (err, user) {
-		done(err, user);
-	});
-});
-
-passport.use('login', new LocalStrategy({
-	passReqToCallback : true
-}, function (req, email, password, done) {
-	// check in mongo if user with email exists or not
-	User.findOne({'email': email}, function (err, user) {
-		// Handle error
-		if (err)
-			return done(err);
-		// User name does not exist, log error and redirect back
-		if(!user) {
-			console.log('User not found.');
-			return done(null, false, req.flash('message', 'User not found.'));
-		}
-		// User exists but wrong password, log the error
-		if(!isValidPassword(user, password)) {
-			console.log('Invalid password');
-			return done(null, false, req.flash('message', 'Invalid password'));
-		}
-		// User and password match, return user from done method
-		return done(null, user);
-	});	
-}));
-
-var isValidPassword = function(user, password) {
-	return bCrypt.compareSync(password, user.password);
-}
-
-
-passport.use('signup', new LocalStrategy({
-	passReqToCallback : true
-}, function (req, email, password, done) {
-	findOrCreateUser = function() {
-		// find a user in Mongo with provided username
-		User.findOne({'email': email}, function(err, user) {
-			// in case of any error return
-			if (err) {
-				console.log('Error in SignUp');
-				return done(err);
-			}
-			// already exists
-			if (user) {
-				console.log('User already exists.');
-				return done(null, false, req.flash('message', 'User already exists.'));
-			}
-			else {
-				// if no user with that email, create user
-				var newUser = new User();
-				// set the user's local credentials
-				newUser.email = email;
-				newUser.password = createHash(password);
-				newUser.first = req.param('first');
-				newUser.last = req.param('last');
-			}
-
-			// save user
-			newUser.save(function (err) {
-				if (err) {
-					console.log('Error in Saving user');
-					throw err;
-				}
-				console.log('User registration successful.');
-				return done(null, newUser);
-			});
-		});
-	}
-}));
-
-var createHash = function (password) {
-	return bCrypt.hashSync(password, bCrypt.genSaltSync(10), null);
-}
 
 // Routes --------------------
 
